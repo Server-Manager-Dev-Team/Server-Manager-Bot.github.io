@@ -36,7 +36,10 @@
         @include _outlined('surface');
       }
     }
-    
+
+    &.pyc-button--wspace {
+      margin: 0.75rem;
+    }
     &.pyc-button--filled {
       @include _filled($color);
       
