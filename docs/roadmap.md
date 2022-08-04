@@ -15,6 +15,7 @@ import Button from '../src/components/Button';
   </TabItem>
   <TabItem value="roadmap-planned" label="📃 Planned (soon)">
     <strong>None</strong>
+  </TabItem>
   <TabItem value="roadmap-coming-soon" label="📮 Coming Soon" default>
     • Multiple choice poll options
     <br/>
