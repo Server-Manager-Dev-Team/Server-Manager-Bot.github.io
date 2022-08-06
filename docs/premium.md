@@ -3,6 +3,8 @@ title: Premium
 description: Unlock the full potential of Server Manager
 ---
 
+import Button from '../src/components/Button';
+
 Want to unlock the full potential of **Server Manager**? Support us on [Ko-fi](https://ko-fi.com).
 
 
@@ -14,6 +16,10 @@ Support the bot with a $2 donation. This will help with hosting costs. To show o
   - Access to **beta** features
   - The `Premium Supporter` role in the [support server](/support.html)
   - Exclusive sneak peaks
+
+<div className="pyc-hero__actions">
+  <Button link="http://ko-fi.com/servermanager/tiers">Purchase</Button>
+</div>
 
 ## Super Supporter Tier
 **Get your very own custom branded Server Manager**! The custom client/bot will <u>not be modified code-wise what so ever</u>, however, it comes with free premium and a custom name, and profile picture. All of this you can set on the Developer Portal on your Discord account. Please note that you will have to give the Developer the token from the Developer Portal in order for the bot to appear online. A status command is included in the custom bot so you can customize the bot's status to fit your server.
@@ -33,5 +39,13 @@ Support the bot with a $2 donation. This will help with hosting costs. To show o
 
   If you mess with the [Discord Developer Portal](https://discord.dev) application and it cause your bot to go offline, you will have to contact our support bot.
 
+<div className="pyc-hero__actions">
+  <Button link="http://ko-fi.com/servermanager/tiers">Purchase</Button>
+</div>
+
 ## Donations
 We greatly appriciate donations from the community. Your donations and premium purchases help with hosting costs and other development costs down the road. Unfortunately, we don't have any perks for donations. **However**, we will most likely come up with perks soon!
+
+<div className="pyc-hero__actions">
+  <Button link="http://ko-fi.com/servermanager">Donate</Button>
+</div>
