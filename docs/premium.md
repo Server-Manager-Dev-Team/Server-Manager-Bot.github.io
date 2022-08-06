@@ -28,16 +28,20 @@ Support the bot with a $2 donation. This will help with hosting costs. To show o
   - Everything in the previous tier
   - **Custom branded Server Manager**
 
-  :::danger
-  Please note that you must be in the [support server](/support.html) to be able to redeem this tier along with the other tiers! While you have this tier, your payment pays for the hosting for your bot. You also **do not** get access to your custom branded bot's code.
-  :::
 
-  <br/>
+:::note
+Please note that you must be in the [support server](/support.html) to be able to redeem this tier along with the other tiers! While you have this tier, your payment pays for the hosting for your bot. You also **do not** get access to your custom branded bot's code.
 
-  :::note
-  You will be able to customize the bot's profile picture and name as you will have access to the bot's application on the [Discord Developer Portal](https://discord.dev). You will have to give us this token to use or else the bot won't be online.
+You will be able to customize the bot's profile picture and name as you will have access to the bot's application on the [Discord Developer Portal](https://discord.dev). You will have to give us this token to use or else the bot won't be online.
 
-  If you mess with the [Discord Developer Portal](https://discord.dev) application and it cause your bot to go offline, you will have to contact our support bot.
+If you mess with the [Discord Developer Portal](https://discord.dev) application and it cause your bot to go offline, you will have to contact our support bot.
+:::
+
+:::tip
+If you are purchasing a Custom Branded Server Manager and you already have **Server Manager** in your server, **all configurations will transfer over to your custom branded bot**.
+
+<danger>🛑 If Server Manager is removed from your server, your configurations may be lost.</danger>
+:::
 
 <div className="pyc-hero__actions">
   <Button link="http://ko-fi.com/servermanager/tiers">Purchase</Button>

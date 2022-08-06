@@ -175,9 +175,16 @@ body {
   }
 }
 
-.test {
-  &::before {
-    content: '-';
+danger {
+  background: #d93333;
+  padding-right: 2px;
+  padding-left: 2px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-radius: 4px;
+  transition: all 0.25s ease;
+  &:hover {
+    background: #e74c3c;
   }
 }
 
