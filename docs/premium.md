@@ -40,7 +40,7 @@ If you mess with the [Discord Developer Portal](https://discord.dev) application
 :::tip
 If you are purchasing a Custom Branded Server Manager and you already have **Server Manager** in your server, **all configurations will transfer over to your custom branded bot**.
 
-<danger>🛑 If Server Manager is removed from your server, your configurations may be lost.</danger>
+<danger>🛑 If Server Manager is removed from your server, your configurations may be lost!</danger>
 :::
 
 <div className="pyc-hero__actions">
