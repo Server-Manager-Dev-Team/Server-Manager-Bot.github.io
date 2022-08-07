@@ -73,3 +73,8 @@ import DiscordComponent, { defaultOptions } from "../../src/components/DiscordCo
 </DiscordComponent>
 
 <br/>
+
+## FAQ
+  
+### Why can't I remove giveaway entries? {#removing-giveaway-entries}
+The reason you can't do this is supported by many ways how a giveaway can be rigged if a manage giveaway entries feature is added. We believe in fair giveaways and no giveaway entries are removed. We understand that some giveaway hosts may want to enforce a custom requirement manually. However, this is why the `/giveaway reroll` command exists and allows you to re-roll the giveaway an unlimited amount of times. Thus, removing the audacity to manage giveaway entries. In the `/giveaway view` command, we may (sooner than later) allow giveaway entries to be viewed but not managed.
