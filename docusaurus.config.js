@@ -24,10 +24,8 @@ const config = {
       "classic",
       {
         docs: {
-          editUrl:
-            "https://github.com/Server-Manager-Dev-Team/Server-Manager-Bot.github.io/tree/main",
           routeBasePath: "/",
-          showLastUpdateAuthor: true,
+          showLastUpdateAuthor: false,
           showLastUpdateTime: true,
         },
         theme: {
