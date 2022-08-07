@@ -13,7 +13,7 @@ This should be self explanatory as it's a very common error, the bot is missing 
 
 Below, match the command you're trying to use with the table below and give it the permissions it needs.
 
-<details>
+<details className="customdetails">
 <summary>/kick</summary>
 
 `Kick Members`
@@ -31,7 +31,7 @@ Below, match the command you're trying to use with the table below and give it t
 </details>
 <br/>
 
-<details>
+<details className="customdetails">
 <summary>/ban</summary>
 
 `Ban Members`
@@ -49,7 +49,7 @@ Below, match the command you're trying to use with the table below and give it t
 </details>
 <br/>
 
-<details>
+<details className="customdetails">
 <summary>/warn</summary>
 
 `Send Messages`
@@ -65,7 +65,7 @@ Below, match the command you're trying to use with the table below and give it t
 </details>
 <br/>
 
-<details>
+<details className="customdetails">
 <summary>/mute</summary>
 
 `Moderate Members`
@@ -83,7 +83,7 @@ Below, match the command you're trying to use with the table below and give it t
 </details>
 <br/>
 
-<details>
+<details className="customdetails">
 <summary>/suggest</summary>
 
 **Access to the suggestions channel**
@@ -101,7 +101,7 @@ Below, match the command you're trying to use with the table below and give it t
 </details>
 <br/>
 
-<details>
+<details className="customdetails">
 <summary><code>All suggestion marking</code></summary>
 
 **Access to the suggestions channel**
