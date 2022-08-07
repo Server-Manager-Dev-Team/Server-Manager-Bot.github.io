@@ -259,6 +259,12 @@ danger {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
+details.customdetails {
+  --docusaurus-details-decoration-color: #5865f2;
+  background-color: inherit;
+  border-color: #7781f4;
+}
+
 .emoji {
   -o-object-fit: contain;
   object-fit: contain;
