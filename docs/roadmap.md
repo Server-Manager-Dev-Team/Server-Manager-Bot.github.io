@@ -12,13 +12,13 @@ import Button from '../src/components/Button';
     <em>(more)</em>
     <br/>
     • Giveaway System
-  </TabItem>
-  <TabItem value="roadmap-planned" label="📃 Planned (soon)">
+    <br/>
     • Multiple choice polls
   </TabItem>
+  <TabItem value="roadmap-planned" label="📃 Planned (soon)">
+    <strong>None</strong>
+  </TabItem>
   <TabItem value="roadmap-coming-soon" label="📮 Coming Soon" default>
-    • More moderation commands
-    <br/>
     • Suggestion Manager config roles
     <br/>
     • Giveaway manager config roles

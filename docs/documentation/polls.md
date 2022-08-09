@@ -24,11 +24,12 @@ import DiscordComponent, { defaultOptions } from "../../src/components/DiscordCo
 |     Usage               |  Description   | Premium |
 | ----------------------- | ----------- | ----------- |
 | <code>/poll start &lt;topic&gt; [description] [duration] [@ping_role] [#channel]</code> | Start a poll with an optional duration       |   False        |
+| <code>/poll multiple_choice &lt;topic&gt; &lt;choice_1&gt &lt;choice_2&gt  [choice_3] [choice_4] [choice_5] [description] [duration] [@ping_role] [#channel]</code> | Start a poll with multiple choice options       |   False        |
 | <code>/poll end &lt;poll_id&gt;</code>   | End a poll via poll ID        |     False        |
 
 <br/>
 
-## Example
+## Examples
 
 ```txt
 /poll start topic:Poll topic description: This is a poll description. duration: 7d
