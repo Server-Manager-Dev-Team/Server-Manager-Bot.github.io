@@ -7,8 +7,8 @@ import Head from '@docusaurus/Head';
 export default function Home(): JSX.Element {
   return (
     <DefaultLayout
-      title="Server Manager Documentation"
-      description="Server Manage Docs"
+      title="Server Manager"
+      description="Server Manager's website"
     >
 <Head>
 <script async src="https://arc.io/widget.min.js#hD9CJ6sv"></script>
