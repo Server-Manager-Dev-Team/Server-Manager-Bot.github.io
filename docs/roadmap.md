@@ -16,7 +16,7 @@ import Button from '../src/components/Button';
     • Multiple choice polls
   </TabItem>
   <TabItem value="roadmap-planned" label="📃 Planned (soon)">
-    <strong>None</strong>
+    • Complete suggestion comments
   </TabItem>
   <TabItem value="roadmap-coming-soon" label="📮 Coming Soon" default>
     • Suggestion Manager config roles
