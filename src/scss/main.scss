@@ -192,6 +192,40 @@ mention {
   border-radius: 5px;
 }
 
+.user_box {
+  display:inline-flex;
+  border-radius: 7px;
+  margin-bottom: 1rem;
+  grid-area: auto;
+  .name {
+    font-family: ('Saira', monospace);
+    padding-left: 0.5rem;
+    font-size: 1rem;
+    padding-top: 0.5rem;
+
+  }
+  .comment {
+    font-family: Whitney;
+    padding-left: 0.5rem;
+    font-size: 0.80rem;
+    padding-top: 0.6rem;
+    font-weight: 100;
+    &::before {
+      content: '('
+    }
+    &::after {
+      content: ')'
+    }
+  }
+}
+
+.avatar {
+  float: left;
+  border-radius: 50%;
+  padding-top: 0.25rem;
+  width: 2rem;
+}
+
 danger {
   background: #d93333;
   padding-right: 2px;
