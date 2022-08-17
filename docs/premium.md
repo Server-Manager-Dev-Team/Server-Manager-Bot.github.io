@@ -90,7 +90,7 @@ We recommend prior knowledge of creating an application on the [Discord Develope
     You've created the bot application for your <strong>Custom Branded Server Manager bot</strong>!
     <br/>
     <br/>
-    Please make sure to message our support bot (<strong>Helper#7371</strong>) in our <a href="https://servermangerbot.ml/support">support server</a> in order to redeem your custom bot, please also provide the <strong><u>token</u></strong> your have copied from earlier!
+    Please make sure to message our support bot (<strong>Helper#7371</strong>) in our <a href="https://servermangerbot.ml/support">support server</a> in order to redeem your custom bot, please also provide the <strong><u>token</u></strong> you have copied from earlier!
   </p>
 
 </Admonition>
