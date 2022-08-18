@@ -296,8 +296,11 @@ danger {
 .blurple-background {
   background-color: #5865f2;
   border-radius: 5px;
-  padding: 0.75rem;
-  width: 65px;
+  padding: 0.3rem;
+  display: inline-block;
+  font-family: ('Saira', monospace);
+  font-size: inherit;
+  margin-right: 0.3rem;
   transition: all 0.3s ease;
   &:hover, &:focus {
     background-color: sentro.token-get('blurple-light');

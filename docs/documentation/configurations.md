@@ -51,6 +51,9 @@ Anyone in the `admin_roles` role(s) configuration automatically by-pass this che
 
 ## Suggestion Configurations
 
+<p className="blurple-background">NEW</p> <code>/config discussion_threads</code>
+
+
 | Usage | Description | Premium |
 | ----------- | ----------- | ----------- |
 | <code>/config suggestions_channel &lt;#channel&gt; </code> | Set the servers suggestion channel | False |
