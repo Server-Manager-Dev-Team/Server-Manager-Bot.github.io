@@ -23,6 +23,12 @@ To use any of these commands, you need to have **Manage Guild** permissions or b
 
 ## Administrator Roles
 
+:::note
+
+Anyone with **Manage Guild** permissions or higher automatically by-pass this check.
+
+:::
+
 | Usage | Description | Premium |
 | ----------- | ----------- | ----------- |
 | <code>/config admin_roles [hidden]</code> | View the server's admin roles | False |
@@ -30,6 +36,12 @@ To use any of these commands, you need to have **Manage Guild** permissions or b
 | <code>/config admin_role remove &lt;role&gt</code> | Remove a role from the admin roles | False |
 
 ## Moderator Roles
+
+:::note
+
+Anyone in the `admin_roles` role(s) configuration automatically by-pass this check.
+
+:::
 
 | Usage | Description | Premium |
 | ----------- | ----------- | ----------- |
@@ -43,5 +55,35 @@ To use any of these commands, you need to have **Manage Guild** permissions or b
 | ----------- | ----------- | ----------- |
 | <code>/config suggestions_channel &lt;#channel&gt; </code> | Set the servers suggestion channel | False |
 | <code>/config discussion_threads &lt;value&gt; </code> | Set the whether a thread should be created on suggestion creation | False |
+| <code>/config suggestion_ping &lt;@role&gt; </code> | Set a role to be pinged when a suggestion is submitted - `None` by default | False |
+
+## Custom Reasons
+
+| Usage | Description | Premium |
+| ----------- | ----------- | ----------- |
+| <code>/config custom_reasons [hidden]</code> | View the server's custom reasons | False |
+| <code>/config custom_reason add &lt;name&gt &lt;value&gt</code> | Add a custom reason - `name` will show up in slash command auto-complete for moderation commands and then will use `value` for the reason | False |
+
+## Logging
+
+:::note
+
+Moderations action results are sent to this channel
+<details className="customdetails">
+  <summary>Preview</summary>
+
+  <h3>Mutes</h3>
+
+  ![Logging Preview 1](../assets/muteexample.png)
+  <h3>Warnings</h3>
+
+  ![Logging Preview 1](../assets/warningexample.png)
+</details>
+:::
+
+| Usage | Description | Premium |
+| ----------- | ----------- | ----------- |
+| <code>/config log_channel &lt;#channel&gt</code> | Set the server's log channel | False |
+
 
 <br />
