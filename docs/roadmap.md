@@ -26,5 +26,7 @@ import Button from '../src/components/Button';
     • Giveaway manager config roles
     <br/>
     • Complete suggestion comments
+    <br/>
+    • `/custom name <name>` & `/custom avatar <attachment>` commands for custom branded bots
   </TabItem>
 </Tabs>
