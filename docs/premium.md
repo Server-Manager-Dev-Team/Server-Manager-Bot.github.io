@@ -23,7 +23,7 @@ Support the bot with a $2 donation. This will help with hosting costs. To show o
 </div>
 
 ## Super Supporter Tier
-**Get your very own custom branded Server Manager**! The custom client/bot will <u>not be modified code-wise what so ever</u>, however, it comes with free premium and a custom name, and profile picture. All of this you can set on the Developer Portal on your Discord account. Please note that you will have to give the Developer the token from the Developer Portal in order for the bot to appear online. A status command is included in the custom bot so you can customize the bot's status to fit your server.
+**Get your very own custom branded Server Manager**! The custom client/bot will <u>not be modified code-wise what so ever</u>, however, it comes with free premium and a custom name/custom profile picture. All of this you can set on the Developer Portal on your Discord account. Please note that you will have to give the Developer the token from the Developer Portal in order for the bot to appear online. A status command is included in the custom bot so you can customize the bot's status to fit your server.
 
 ### Perks
   - Everything in the previous tier
@@ -33,15 +33,9 @@ Support the bot with a $2 donation. This will help with hosting costs. To show o
 :::note
 Please note that you must be in the [support server](/support.html) to be able to redeem this tier along with the other tiers! While you have this tier, your payment pays for the hosting for your bot. You also **do not** get access to your custom branded bot's code.
 
-You will be able to customize the bot's profile picture and name as you will have access to the bot's application on the [Discord Developer Portal](https://discord.dev). You will have to give us this token to use or else the bot won't be online.
+You will be able to customize the bot's profile picture and name to your liking as you will have access to the bot's application on the [Discord Developer Portal](https://discord.dev). You will have to give us this token to use or else the bot won't be online.
 
 If you mess with the [Discord Developer Portal](https://discord.dev) application and it cause your bot to go offline, you will have to contact our support bot.
-:::
-
-:::tip
-If you are purchasing a Custom Branded Server Manager and you already have **Server Manager** in your server, **all configurations will transfer over to your custom branded bot**.
-
-<danger>🛑 If Server Manager is removed from your server, your configurations may be lost!</danger>
 :::
 
 ### Redeeming
