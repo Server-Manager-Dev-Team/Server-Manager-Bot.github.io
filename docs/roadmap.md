@@ -17,6 +17,10 @@ import Button from '../src/components/Button';
   </TabItem>
   <TabItem value="roadmap-planned" label="📃 Planned (soon)">
     • Complete suggestion comments
+    <br/>
+    • <code>/suggestion edit <suggestion_id></code> command to edit a suggestion
+    <br/>
+    • <code>/config ban_appea_link <link></code> config to set an appeal server invite link sent to banned members
   </TabItem>
   <TabItem value="roadmap-coming-soon" label="📮 Coming Soon" default>
     • Suggestion Manager config roles
