@@ -27,6 +27,7 @@ import Button from '../src/components/Button';
     <br/>
     • Complete suggestion comments
     <br/>
-    • `/custom name <name>` & `/custom avatar <attachment>` commands for custom branded bots
+    • `/custom name &lt;name&gt` & `/custom avatar &lt;attachment&gt` commands for custom branded bots
+    <br/>
   </TabItem>
 </Tabs>
