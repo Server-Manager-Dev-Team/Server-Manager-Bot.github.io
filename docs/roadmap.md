@@ -16,9 +16,9 @@ import Button from '../src/components/Button';
     • Multiple choice polls
   </TabItem>
   <TabItem value="roadmap-planned" label="📃 Planned (soon)">
-    • <code>/suggestion edit &lt;suggestion_id&gt</code> command to edit a suggestion
+    • <code>/suggestion edit &lt;suggestion_id&gt;</code> command to edit a suggestion
     <br/>
-    • <code>/config ban_appeal_link &lt;link&gt</code> config to set an appeal server invite link sent to banned members
+    • <code>/config ban_appeal_link &lt;link&gt;</code> config to set an appeal server invite link sent to banned members
   </TabItem>
   <TabItem value="roadmap-coming-soon" label="📮 Coming Soon" default>
     • Suggestion Manager config roles
@@ -27,7 +27,7 @@ import Button from '../src/components/Button';
     <br/>
     • Complete suggestion comments
     <br/>
-    • `/custom name &lt;name&gt` & `/custom avatar &lt;attachment&gt` commands for custom branded bots
+    • <code>/custom name &lt;name&gt;</code> & <code>/custom avatar &lt;attachment&gt;</code> commands for custom branded bots
     <br/>
   </TabItem>
 </Tabs>
