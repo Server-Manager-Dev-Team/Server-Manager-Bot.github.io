@@ -50,12 +50,17 @@ Below is an example of a suggestion
 | Usage      | Description | Premium |
 | ----------- | ----------- | ----------- | 
 | <code>/config suggestions_channel &lt;#channel&gt; </code>      | Set the servers suggestion channel       |   False        |
-| <code>/suggest &lt;suggestion&gt;</code>   | Suggest something        |     False        |
+| <code>/suggest &lt;suggestion&gt;</code>   | Suggest something to the server        |     False        |
+| <code>/suggestion edit &lt;suggestion_id&gt; [hidden_response]</code>   | Edit your own suggestion (content)       |     False        |
 | <code>/suggestions view &lt;id&gt; [hidden=False]</code>   | View a suggestion in-depth        |     False        |
 | <code>/suggestions approve &lt;id&gt; [comment] [close_voting=False] [hidden=False]</code>   | Approve a suggestion        |     False        |
 | <code>/suggestions deny &lt;id&gt; [comment] [close_voting=False] [hidden=False]</code>   | Deny a suggestion        |     False        |
 | <code>/suggestions implement &lt;id&gt; [comment] [close_voting=False] [hidden=False]</code>   | Implement a suggestion        |     False        |
 | <code>/suggestions consider &lt;id&gt; [comment] [hidden=False]</code>   | Consider a suggestion        |     False        |
 | <code>/suggestions comment &lt;id&gt; &lt;comment&gt;</code>   | Comment on a suggestion        |     <premium>True</premium>        |
+
+:::note
+Suggestion commenting is currently not finished yet and may have some small and minor bugs.
+:::
 
 <br />
