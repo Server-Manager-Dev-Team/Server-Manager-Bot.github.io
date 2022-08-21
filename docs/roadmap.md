@@ -14,11 +14,13 @@ import Button from '../src/components/Button';
     • Giveaway System
     <br/>
     • Multiple choice polls
+    <br/>
+    • <code>/config ban_appeal_link &lt;link&gt;</code> config to set an appeal server invite link sent to banned members
+    <br/>
+    • <code>/custom name &lt;name&gt;</code> & <code>/custom avatar &lt;attachment&gt;</code> commands for custom branded bots
   </TabItem>
   <TabItem value="roadmap-planned" label="📃 Planned (soon)">
     • <code>/suggestion edit &lt;suggestion_id&gt;</code> command to edit a suggestion
-    <br/>
-    • <code>/config ban_appeal_link &lt;link&gt;</code> config to set an appeal server invite link sent to banned members
   </TabItem>
   <TabItem value="roadmap-coming-soon" label="📮 Coming Soon" default>
     • Suggestion Manager config roles
@@ -27,7 +29,6 @@ import Button from '../src/components/Button';
     <br/>
     • Complete suggestion comments
     <br/>
-    • <code>/custom name &lt;name&gt;</code> & <code>/custom avatar &lt;attachment&gt;</code> commands for custom branded bots
-    <br/>
+    • <code>/whois &lt;member&gt;</code> command for utility
   </TabItem>
 </Tabs>
