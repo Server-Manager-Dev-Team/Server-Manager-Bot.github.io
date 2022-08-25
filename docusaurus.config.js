@@ -69,6 +69,21 @@ const config = {
     footer: {
       style: "dark",
       copyright: `Copyright © ${new Date().getFullYear()} Server Manager Development, All rights reserved.`,
+      links: [
+        {
+          title: "Server Manager",
+          items: [
+            {
+              label: "Support",
+              href: "https://discord.gg/6bCKvP24kb"
+            },
+            {
+              label: "Terms of Service",
+              to: "/terms"
+            }
+          ]
+        }
+      ]
     },
     prism: {
       defaultLanguage: "python",

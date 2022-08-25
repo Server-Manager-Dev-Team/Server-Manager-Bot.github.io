@@ -1,8 +1,8 @@
 ---
 title: Status
 description: View Server Manager's live status
-sidebar_position: 5
 ---
+
 import Button from '../src/components/Button';
 
 We mainly use **[our support server](/support)** for our status updates, but we are always managing Server Manager's status on **Instatus**.

@@ -51,16 +51,11 @@ Anyone in the `admin_roles` role(s) configuration automatically by-pass this che
 
 ## Moderation Configurations
 
-<p className="blurple-background">NEW</p> <code>/config appeal_server_invite</code>
-
 | Usage | Description | Premium |
 | ----------- | ----------- | ----------- |
 | <code>/config appeal_server_invite &lt;invite&gt</code> | Set the server's [appeal server invite](../updates/appeal-server-invite-notice.md) | <premium>True</premium> |
 
 ## Suggestion Configurations
-
-<p className="blurple-background">NEW</p> <code>/config discussion_threads</code>
-
 
 | Usage | Description | Premium |
 | ----------- | ----------- | ----------- |

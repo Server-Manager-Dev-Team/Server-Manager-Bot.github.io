@@ -15,37 +15,7 @@ import {
 } from "discord-message-components/packages/react";
 import "discord-message-components/packages/react/dist/style.css";
 
-Below is an example of a suggestion
-
-<br/>
-<DiscordComponent>
-    <DiscordMessage author="Docs Bot" avatar="blue" bot>
-        <DiscordEmbed
-        authorIcon="/img/logo.png"
-        authorName="User#0000"
-        thumbnail="/img/logo.png"
-        borderColor="#5865F2"
-        timestamp="12/24/2022"
-        footerIcon="/img/logo.png"
-        image="/img/banner-v3.png"
-        >
-        This is a suggestion! Fields below show information about this suggestion. In the <code>Votes</code> field, it shows the amount of votes and the percentage of of upvotes compared to downvotes and vice-versa.            
-            <DiscordEmbedFields slot="fields" inline="true">
-                <DiscordEmbedField fieldTitle="Votes">
-                  <strong>Upvotes:</strong> 3 <code>(100%)</code>
-                  <br/>
-                  <strong>Downvotes:</strong> 0 <code>(0%)</code>
-                </DiscordEmbedField>
-                <DiscordEmbedField fieldTitle="Status">
-                  📣 This suggestion is waiting for an official answer!
-                </DiscordEmbedField>
-            </DiscordEmbedFields>
-            <span slot="footer">Suggestion ID: wasdabc12340</span>
-        </DiscordEmbed>
-    </DiscordMessage>
-</DiscordComponent>
-
-<br/>
+<p className="blurple-background">NEW</p> <code>/suggestions delete</code>
 
 | Usage      | Description | Premium |
 | ----------- | ----------- | ----------- | 
@@ -57,10 +27,47 @@ Below is an example of a suggestion
 | <code>/suggestions deny &lt;id&gt; [comment] [close_voting=False] [hidden=False]</code>   | Deny a suggestion        |     False        |
 | <code>/suggestions implement &lt;id&gt; [comment] [close_voting=False] [hidden=False]</code>   | Implement a suggestion        |     False        |
 | <code>/suggestions consider &lt;id&gt; [comment] [hidden=False]</code>   | Consider a suggestion        |     False        |
+| <code>/suggestions delete &lt;id&gt; [notify_author=True] [hidden_response]</code> | Delete a suggestion from the database and the suggestions channel | False |
 | <code>/suggestions comment &lt;id&gt; &lt;comment&gt;</code>   | Comment on a suggestion        |     <premium>True</premium>        |
+
+:::caution Warning
+
+Deleting a suggestion message **doesn't actually delete the suggestion from the database**. Please use `/suggestion delete` to delete a suggestion.
+
+:::
 
 :::note
 Suggestion commenting is currently not finished yet and may have some small and minor bugs.
 :::
 
-<br />
+## Examples
+
+```txt
+/suggest suggestion: This is a suggestion!
+```
+<DiscordComponent>
+    <DiscordMessage author="Docs Bot" avatar="blue" bot>
+        <DiscordEmbed
+        authorIcon="/img/logo.png"
+        authorName="User#0000"
+        thumbnail="/img/logo.png"
+        borderColor="#5865F2"
+        timestamp="12/24/2022"
+        footerIcon="/img/logo.png"
+        image="/img/banner-v3.png"
+        >
+        This is a suggestion!            
+            <DiscordEmbedFields slot="fields" inline="true">
+                <DiscordEmbedField fieldTitle="Votes">
+                  <strong>Upvotes:</strong> 0 <code>(0%)</code>
+                  <br/>
+                  <strong>Downvotes:</strong> 0 <code>(0%)</code>
+                </DiscordEmbedField>
+                <DiscordEmbedField fieldTitle="Status">
+                  📣 This suggestion is waiting for an official answer!
+                </DiscordEmbedField>
+            </DiscordEmbedFields>
+            <span slot="footer">Suggestion ID: wasdabc12340</span>
+        </DiscordEmbed>
+    </DiscordMessage>
+</DiscordComponent>
