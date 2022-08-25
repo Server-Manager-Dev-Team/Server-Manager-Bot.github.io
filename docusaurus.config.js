@@ -80,6 +80,10 @@ const config = {
             {
               label: "Terms of Service",
               to: "/terms"
+            },
+            {
+              label: "Privacy Policy",
+              to: "/privacy"
             }
           ]
         }
