@@ -34,15 +34,14 @@ const config = {
       },
     ],
   ],
-  blog: {
-    showReadingTime: true,
-    },
   themeConfig: {
     docs: {
       sidebar: {
         autoCollapseCategories: true,
       },
-    },
+    blog: {
+      showReadingTime: true,
+      },
     colorMode: {
       defaultMode: "dark",
       disableSwitch: true,
