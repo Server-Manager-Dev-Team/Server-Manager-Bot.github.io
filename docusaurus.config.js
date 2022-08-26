@@ -28,22 +28,22 @@ const config = {
           showLastUpdateAuthor: false,
           showLastUpdateTime: true,
         },
-
-        blog: {
-          showReadingTime: true,
-          },
         theme: {
           customCss: require.resolve("./src/scss/main.scss"),
         },
       },
     ],
   ],
+
   themeConfig: {
     docs: {
       sidebar: {
         autoCollapseCategories: true,
       },
     },
+    blog: {
+      showReadingTime: true,
+      },
     colorMode: {
       defaultMode: "dark",
       disableSwitch: true,
@@ -98,7 +98,6 @@ const config = {
       darkTheme: darkCodeTheme,
     },
   },
- }
 };
 
 module.exports = config;
