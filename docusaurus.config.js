@@ -34,7 +34,9 @@ const config = {
       },
     ],
   ],
-
+  blog: {
+    showReadingTime: true,
+    },
   themeConfig: {
     docs: {
       sidebar: {
