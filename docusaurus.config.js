@@ -43,6 +43,7 @@ const config = {
       sidebar: {
         autoCollapseCategories: true,
       },
+    },
     colorMode: {
       defaultMode: "dark",
       disableSwitch: true,
