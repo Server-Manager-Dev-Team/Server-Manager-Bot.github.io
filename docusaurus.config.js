@@ -28,6 +28,10 @@ const config = {
           showLastUpdateAuthor: false,
           showLastUpdateTime: true,
         },
+
+        blog: {
+          showReadingTime: true,
+          },
         theme: {
           customCss: require.resolve("./src/scss/main.scss"),
         },
@@ -38,9 +42,6 @@ const config = {
     docs: {
       sidebar: {
         autoCollapseCategories: true,
-      },
-    blog: {
-      showReadingTime: true,
       },
     colorMode: {
       defaultMode: "dark",
