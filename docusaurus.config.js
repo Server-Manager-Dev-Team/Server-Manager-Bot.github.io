@@ -87,6 +87,10 @@ const config = {
             {
               label: "Privacy Policy",
               to: "/privacy"
+            },
+            {
+              label: "Blog",
+              to: "/blog"
             }
           ]
         }
