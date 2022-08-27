@@ -9,8 +9,6 @@ import Button from '../src/components/Button';
 
 <Tabs>
   <TabItem value="roadmap-completed" label="✅ Completed">
-    <em>(more)</em>
-    <br/>
     • Giveaway System
     <br/>
     • Multiple choice polls
@@ -18,9 +16,11 @@ import Button from '../src/components/Button';
     • <code>/config ban_appeal_link &lt;link&gt;</code> config to set an appeal server invite link sent to banned members
     <br/>
     • <code>/custom name &lt;name&gt;</code> & <code>/custom avatar &lt;attachment&gt;</code> commands for custom branded bots
+    <br/>
+    • <code>/suggestion edit &lt;suggestion_id&gt;</code> command to edit a suggestion
   </TabItem>
   <TabItem value="roadmap-planned" label="📃 Planned (soon)">
-    • <code>/suggestion edit &lt;suggestion_id&gt;</code> command to edit a suggestion
+    <em>None</em>
   </TabItem>
   <TabItem value="roadmap-coming-soon" label="📮 Coming Soon" default>
     • Suggestion Manager config roles

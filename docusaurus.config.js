@@ -89,12 +89,25 @@ const config = {
               label: "Privacy Policy",
               to: "/privacy"
             },
-            {
-              label: "Blog",
-              to: "/blog"
-            }
           ]
-        }
+        },
+      {
+        title: "Other",
+        items: [
+          {
+            label: "GitHub",
+            href: "https://github.com/Server-Manager-Dev-Team/website"
+          },
+          {
+            label: "Blog",
+            to: "/blog"
+          },
+          {
+            label: "Roadmap",
+            to: "/roadmap"
+          }
+        ]
+      }
       ]
     },
     prism: {
