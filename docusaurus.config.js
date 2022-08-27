@@ -24,6 +24,7 @@ const config = {
       "classic",
       {
         docs: {
+          editUrl: "https://github.com/Server-Manager-Dev-Team/website/tree/main",
           routeBasePath: "/",
           showLastUpdateAuthor: false,
           showLastUpdateTime: true,
