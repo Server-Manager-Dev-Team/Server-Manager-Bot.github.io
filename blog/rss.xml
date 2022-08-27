@@ -4,18 +4,19 @@
         <title>Server Manager Blog</title>
         <link>https://servermanagerbot.ml/blog</link>
         <description>Server Manager Blog</description>
-        <lastBuildDate>Thu, 25 Aug 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 26 Aug 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[First Blog Post]]></title>
-            <link>https://servermanagerbot.ml/blog/first</link>
-            <guid>first</guid>
-            <pubDate>Thu, 25 Aug 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[This is our first blog post! aaaaaaaaaaaaaaaaaaaaaaaa]]></description>
-            <content:encoded><![CDATA[<p>This is our first blog post! aaaaaaaaaaaaaaaaaaaaaaaa</p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="contributors">Contributors<a class="hash-link" href="#contributors" title="Direct link to heading">​</a></h2><div class="user_box"><img loading="lazy" class="profile-picture-avatar img_ev3q" src="../../img/nziie.png"><div class="name">vNziie--#7777</div><div class="comment">update author</div></div><br><div class="user_box"><img loading="lazy" class="profile-picture-avatar img_ev3q" src="../../img/neb.png"><div class="name">Neb#7507</div><div class="comment">a test contributor</div></div>]]></content:encoded>
-            <category>firstblog</category>
+            <title><![CDATA[Release v1.0.6]]></title>
+            <link>https://servermanagerbot.ml/blog/v1.0.6</link>
+            <guid>v1.0.6</guid>
+            <pubDate>Fri, 26 Aug 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hey everyone, a new version has been released that includes a new configuration]]></description>
+            <content:encoded><![CDATA[<p>Hey everyone, a new version has been released that includes <strong>a new configuration</strong></p><h2 class="anchor anchorWithHideOnScrollNavbar_WYt5" id="notable-contributors">Notable Contributors<a class="hash-link" href="#notable-contributors" title="Direct link to heading">​</a></h2><div class="user_box"><img loading="lazy" class="profile-picture-avatar img_ev3q" src="../../img/neb.png"><div class="name">Neb#7507</div><div class="comment">a feature suggester</div></div><h3>Want to contribute to Server Manager?</h3><div class="pyc-hero__actions"><a href="https://discord.gg/6bCKvP24kb" target="_blank" rel="noopener noreferrer" class="pyc-button" aria-label="Join our Support Server"><span class="pyc-button__label">Join our Support Server</span></a></div>]]></content:encoded>
+            <category>New Version</category>
+            <category>Updates</category>
         </item>
     </channel>
 </rss>

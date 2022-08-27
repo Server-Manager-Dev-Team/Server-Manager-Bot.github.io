@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkguide_pycord_dev=self.webpackChunkguide_pycord_dev||[]).push([[713],{3457:function(e){e.exports=JSON.parse('[{"label":"firstblog","permalink":"/blog/tags/firstblog","count":1}]')}}]);
