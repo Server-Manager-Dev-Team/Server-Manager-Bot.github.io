@@ -12,7 +12,7 @@ The Guide is built using [Docusaurus 2](https://docusaurus.io/), a modern static
 
 First, you need to clone the repository:
 
-    git clone https://github.com/Server-Manager-Dev-Team/Server-Manager-Bot.github.io
+    git clone https://github.com/Server-Manager-Dev-Team/website
 
 ### Installing Requirements
 

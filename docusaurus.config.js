@@ -17,7 +17,7 @@ const config = {
   trailingSlash: false,
   deploymentBranch:"main",
   organizationName: "Server-Manager-Dev-Team", // Usually your GitHub org/user name.
-  projectName: "Server-Manager-Bot.github.io", // Usually your repo name.
+  projectName: "website", // Usually your repo name.
   plugins: ["docusaurus-plugin-sass"],
   presets: [ 
     [
