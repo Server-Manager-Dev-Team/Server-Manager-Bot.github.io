@@ -20,7 +20,7 @@ import Button from '../src/components/Button';
     • <code>/suggestion edit &lt;suggestion_id&gt;</code> command to edit a suggestion
   </TabItem>
   <TabItem value="roadmap-planned" label="📃 Planned (soon)">
-    <em>None</em>
+    • Cases (moderation)
   </TabItem>
   <TabItem value="roadmap-coming-soon" label="📮 Coming Soon" default>
     • Suggestion Manager config roles
