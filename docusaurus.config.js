@@ -72,7 +72,6 @@ const config = {
     },
     footer: {
       style: "dark",
-      copyright: `Copyright © ${new Date().getFullYear()} Server Manager Development, All rights reserved.`,
       links: [
         {
           title: "Server Manager",
