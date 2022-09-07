@@ -21,3 +21,11 @@ Using the `/delete_all_warnings` command **cannot be undone**!
 :::caution
 Discord's Timeout feature only allows members to be muted with a max duration of **1 week**. If you try and mute someone for over a week, the bot will send you an error message saying you can't do that
 :::
+
+## Cases
+
+| Command | Description | 
+| ----------------------- | ----------- |
+| <code>/case &lt;case_id&gt;</code> | View/manage a case - **you can edit a case in this command** |
+| <code>/createcase &lt;member&gt; &lt;reason&gt; [action=Other] [proof=image url] [duration]</code> | Create a case for a user |
+| <code>/cases [member]</code> | View cases for the whole server or yourself |
