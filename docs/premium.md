@@ -25,6 +25,12 @@ Support the bot with a $2 donation. This will help with hosting costs. To show o
 ## Super Supporter Tier
 **Get your very own custom branded Server Manager**! The custom client/bot will <u>not be modified code-wise what so ever</u>, however, it comes with free premium and a custom name/custom profile picture. All of this you can set on the Developer Portal on your Discord account. Please note that you will have to give the Developer the token from the Developer Portal in order for the bot to appear online. A status command is included in the custom bot so you can customize the bot's status to fit your server.
 
+:::info
+
+The **Advanced Supporter** tier is the same as this tier, but offers downgraded hosting compared to the Super Supporter Tier (the hosting that Server Manager uses).
+
+:::
+
 ### Perks
   - Everything in the previous tier
   - **Custom branded Server Manager**
