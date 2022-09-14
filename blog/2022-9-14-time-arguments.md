@@ -21,17 +21,20 @@ Server Manager uses a custom time converter so that you can provide a human-read
 
 ## Key
 `d` - days
+<br/>
 `h` - hours
+<br/>
 `m` - minutes
+<br/>
 `s` - seconds
 
 ## Examples
 
-```txt title="Using 'h' (hours)
+```txt title="Using 'h' (hours)"
 /time argument: 1h
 ```
 <DiscordComponent>
-  <DiscordMessage author="Docs Bot" avatar="blue" bot>
+  <DiscordMessage profile="servermanager">
     The time argument you provided was <strong>1 hour</strong>!
     <div slot="interactions">
       <DiscordInteraction profile="nziie" command>
