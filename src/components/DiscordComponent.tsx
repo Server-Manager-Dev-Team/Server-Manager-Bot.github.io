@@ -12,19 +12,13 @@ export const defaultOptions: DiscordMessageOptions = {
 		nziie: {
 			author: 'vNziie--',
 			avatar: '/img/nziie.png',
-			roleColor: '#00ffff',
 		},
         servermanager: {
             author: 'Server Manager',
             avatar: '/img/logo.png',
-            roleColor: '#38faff',
+            roleColor: '#5865f2',
             bot: true,
         },
-		dorukyum: {
-			author: 'Dorukyum',
-			avatar: '/img/dorukyum.png',
-			roleColor: '#2cd6f7',
-		}
 	},
 };
 
