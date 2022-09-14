@@ -21,11 +21,14 @@ Server Manager uses a custom time converter so that you can provide a human-read
 
 ## Key
 `d` - days
-<br/>
+
+
 `h` - hours
-<br/>
+
+
 `m` - minutes
-<br/>
+
+
 `s` - seconds
 
 ## Examples
