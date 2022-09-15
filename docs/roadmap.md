@@ -18,9 +18,11 @@ import Button from '../src/components/Button';
     • <code>/custom name &lt;name&gt;</code> & <code>/custom avatar &lt;attachment&gt;</code> commands for custom branded bots
     <br/>
     • <code>/suggestion edit &lt;suggestion_id&gt;</code> command to edit a suggestion
+    <br/>
+    • Cases (moderation) - <a href="/blog/v1.1.0#cases">new in v1.1.0</a>
   </TabItem>
   <TabItem value="roadmap-planned" label="📃 Planned (soon)">
-    • Cases (moderation)
+    <em>None</em>
   </TabItem>
   <TabItem value="roadmap-coming-soon" label="📮 Coming Soon" default>
     • Suggestion Manager config roles

@@ -64,9 +64,9 @@ const config = {
           label: 'Support',
         },
         {
-          href: 'https://server-manager.instatus.com',
+          to: '/category/documentation',
           position: 'right',
-          label: 'Status',
+          label: 'Documentation',
         },
       ],
     },
