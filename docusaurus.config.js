@@ -66,7 +66,7 @@ const config = {
         {
           to: '/category/documentation',
           position: 'right',
-          label: 'Documentation',
+          label: 'Docs',
         },
       ],
     },
