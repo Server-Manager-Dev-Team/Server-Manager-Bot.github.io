@@ -33,6 +33,22 @@ Server Manager uses a custom time converter so that you can provide a human-read
 
 ## Examples
 
+```txt title="Using 'd' (days)"
+/time argument: 1d
+```
+<DiscordComponent>
+  <DiscordMessage profile="servermanager">
+    The time argument you provided was <strong>1 day</strong>!
+    <div slot="interactions">
+      <DiscordInteraction profile="nziie" command>
+        time
+      </DiscordInteraction>
+    </div>
+  </DiscordMessage>
+</DiscordComponent>
+
+---
+
 ```txt title="Using 'h' (hours)"
 /time argument: 1h
 ```
@@ -48,3 +64,38 @@ Server Manager uses a custom time converter so that you can provide a human-read
 </DiscordComponent>
 
 ---
+
+```txt title="Using 'm' (minutes)"
+/time argument: 5m
+```
+<DiscordComponent>
+  <DiscordMessage profile="servermanager">
+    The time argument you provided was <strong>5 minutes</strong>!
+    <div slot="interactions">
+      <DiscordInteraction profile="nziie" command>
+        time
+      </DiscordInteraction>
+    </div>
+  </DiscordMessage>
+</DiscordComponent>
+
+---
+
+```txt title="Using 's' (seconds)"
+/time argument: 30s
+```
+<DiscordComponent>
+  <DiscordMessage profile="servermanager">
+    The time argument you provided was <strong>30 seconds</strong>!
+    <div slot="interactions">
+      <DiscordInteraction profile="nziie" command>
+        time
+      </DiscordInteraction>
+    </div>
+  </DiscordMessage>
+</DiscordComponent>
+<br/>
+
+---
+
+> Hope this helps you on the fly while either starting a giveaway, poll, or issuing warnings or mutes!
