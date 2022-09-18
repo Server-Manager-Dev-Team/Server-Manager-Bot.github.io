@@ -5,7 +5,7 @@ description: Having trouble with Server Manager?
 
 ## 403 Forbidden
 
-What this error means is that Server Manager tried do execute an action, but failed.
+What this error means is that Server Manager tried to execute an action, but failed.
 
 ### Missing Permissions
 This should be self explanatory as it's a very common error, the bot is missing permissions to execute an action - or did but failed. To fix this, we recommend giving the bot `Server Administrator` permissions for an easy fix. Not comfortable giving the bot admin permissions? That's alright! We'll just have to take the longer route instead. 
