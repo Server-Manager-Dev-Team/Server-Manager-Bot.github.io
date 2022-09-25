@@ -60,7 +60,7 @@ To thin down the number of mis-uses of this configuration, we're making it **pre
 ## Contributors
 
 <div className="user_box">
-  <img className="avatar" src="../img/nziie.png"/>
+  <img className="profile-picture-avatar" src="../img/nziie.png"/>
   <div className="name">
     vNziie--#7777
   </div>
