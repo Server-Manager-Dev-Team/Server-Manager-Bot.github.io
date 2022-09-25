@@ -266,6 +266,12 @@ div[class^=announcementBar_] {
   border: 1.75px solid rgba(0, 0, 0, 0.527);
   background-color: #292b2f;
   color: whitesmoke;
+  button {
+    color:#5865f2;
+    opacity: 100;
+    border-radius: 3px;
+    border: 1.70px solid rgba(0, 0, 0, 0.527);
+  }
 }
 
 .discord-link {
