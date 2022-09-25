@@ -37,6 +37,9 @@ const config = {
   ],
 
   themeConfig: {
+    announcementBar: {
+      content: '<strong>Server Manager</strong> has been officially verified! <a href="/blog/verification-announcement">Check out our blog</a>!'
+      }
     docs: {
       sidebar: {
         autoCollapseCategories: true,
