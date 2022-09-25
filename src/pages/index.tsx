@@ -14,8 +14,8 @@ export default function Home(): JSX.Element {
 <script async src="https://arc.io/widget.min.js#hD9CJ6sv"></script>
 </Head>
       <PYCHero
-        title="Server Manager Documentation"
-        subtitle="Server Manager - A simple multipurpose Discord bot"
+        title="Server Manager"
+        subtitle=" A simple customizable multipurpose Discord bot"
         hasLogo={true}
       />
       <main className="content-wrap--home-page">
