@@ -22,7 +22,7 @@ const PYCHero: React.FC<PYCHeroProps> = ({ title, subtitle, hasLogo = true }) =>
                 <h1>{ title }</h1>
                 <span className="pyc-hero__subtitle">{ subtitle }</span>
                 <div className="pyc-hero__actions">
-                    <PYCButton type="filled inverted wspace" link="/introduction">Get Started</PYCButton>
+                    <PYCButton type="filled inverted wspace" link="/intro">Get Started</PYCButton>
                     <PYCButton type="filled inverted wspace" link="/category/documentation">Documentation</PYCButton>
                 </div>
             </div>

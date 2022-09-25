@@ -44,13 +44,12 @@ import DiscordComponent, { defaultOptions } from "../../src/components/DiscordCo
         authorIcon="/img/logo.png"
         authorName="Server Manager Support"
         borderColor="#5865F2"
-        timestamp="12/24/2022"
         footerIcon="/img/logo.png"
         >
         $5 Nitro Classic giveaway with no requirement to enter! Click the button below this message to enter. Good luck! 🎉            
             <DiscordEmbedFields slot="fields" inline="true">
                 <DiscordEmbedField fieldTitle="Ends">
-                <code>in 6 hours</code>
+                <span className="timestamp">in 6 hours</span>
                 </DiscordEmbedField>
                 <DiscordEmbedField fieldTitle="Host">
                   <DiscordMention highlight={true}>{defaultOptions.profiles.nziie.author}</DiscordMention>
@@ -66,7 +65,7 @@ import DiscordComponent, { defaultOptions } from "../../src/components/DiscordCo
       <div slot="actions">
         <DiscordButtons>
           <DiscordButton type="primary" emoji="🎉"></DiscordButton>
-          <DiscordButton type="secondary" disabled="true">3 entries</DiscordButton>
+          <DiscordButton type="secondary" disabled="true">5 entries</DiscordButton>
         </DiscordButtons>
       </div>
     </DiscordMessage>

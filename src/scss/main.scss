@@ -237,6 +237,38 @@ hr {
   width: 2rem;
 }
 
+.box {
+  display: inline-block;
+  font-family: Whitney;
+  border: 1.75px solid rgba(0, 0, 0, 0.527);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+  padding-right: 1rem;
+  background-color: rgba(41,43,47,255);
+  border-radius: 5px;
+  margin-bottom: 0.75rem;
+  margin-top: 0.75rem;
+  .title {
+    font-family: ('Saira', monospace);
+    font-size: 1.20rem;
+  }
+}
+
+.timestamp {
+  background: #42464d;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 3px;
+}
+
+.discord-link {
+  color: #1c97da;
+  &:hover {
+    color: #5865f2;
+  }
+}
+
 danger {
   background: #d93333;
   padding-right: 2px;
@@ -307,7 +339,10 @@ danger {
 .blurple-background {
   background-color: #5865f2;
   border-radius: 5px;
-  padding: 0.3rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   display: inline-block;
   font-family: ('Saira', monospace);
   font-size: inherit;
