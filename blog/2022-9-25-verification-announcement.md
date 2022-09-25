@@ -5,7 +5,7 @@ authors: nziie
 ---
 import Button from '../src/components/Button';
 
-![Verified Image](./assets/verifiedbackground.png)
+![](./assets/verifiedbackground.png)
 
 # Server Manager has been verified! 🎉
 
