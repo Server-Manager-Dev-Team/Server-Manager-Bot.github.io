@@ -262,6 +262,12 @@ hr {
   border-radius: 3px;
 }
 
+div[class^=announcementBar_] {
+  border: 1.75px solid rgba(0, 0, 0, 0.527);
+  background-color: #292b2f;
+  color: whitesmoke;
+}
+
 .discord-link {
   color: #1c97da;
   &:hover {

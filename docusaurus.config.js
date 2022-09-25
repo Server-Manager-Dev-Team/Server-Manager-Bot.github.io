@@ -38,7 +38,7 @@ const config = {
 
   themeConfig: {
     announcementBar: {
-      content: '<strong>Server Manager</strong> has been officially verified! <a href="/blog/verification-announcement">Check out our blog</a>!',
+      content: '<strong>Server Manager</strong> has been officially verified! <a href="/blog/verification-announcement" className="discord-link">Check out our blog</a>!',
       },
     docs: {
       sidebar: {
