@@ -38,7 +38,7 @@ const config = {
   ],
   themeConfig: {
     announcementBar: {
-      content: `${MainSVG} <strong>Server Manager</strong> has been officially verified! <a href="/blog/verification-announcement">Check out our blog</a>!`,
+      content: `<span class="mainsvg">${MainSVG}</span> <strong>Server Manager</strong> has been officially verified! <a href="/blog/verification-announcement">Check out our blog</a>!`,
       },
     docs: {
       sidebar: {
