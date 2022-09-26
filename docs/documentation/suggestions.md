@@ -15,20 +15,19 @@ import {
 } from "discord-message-components/packages/react";
 import "discord-message-components/packages/react/dist/style.css";
 
-<p className="blurple-background">NEW</p> <code>/suggestions delete</code>
 
 | Usage      | Description | Premium |
 | ----------- | ----------- | ----------- | 
-| <code>/config suggestions_channel &lt;#channel&gt; </code>      | Set the servers suggestion channel       |   False        |
-| <code>/suggest &lt;suggestion&gt;</code>   | Suggest something to the server        |     False        |
-| <code>/suggestion edit &lt;suggestion_id&gt; [hidden_response]</code>   | Edit your own suggestion (content)       |     False        |
-| <code>/suggestions view &lt;id&gt; [hidden=False]</code>   | View a suggestion in-depth        |     False        |
-| <code>/suggestions approve &lt;id&gt; [comment] [close_voting=False] [hidden=False]</code>   | Approve a suggestion        |     False        |
-| <code>/suggestions deny &lt;id&gt; [comment] [close_voting=False] [hidden=False]</code>   | Deny a suggestion        |     False        |
-| <code>/suggestions implement &lt;id&gt; [comment] [close_voting=False] [hidden=False]</code>   | Implement a suggestion        |     False        |
-| <code>/suggestions consider &lt;id&gt; [comment] [hidden=False]</code>   | Consider a suggestion        |     False        |
-| <code>/suggestions delete &lt;id&gt; [notify_author=True] [hidden_response]</code> | Delete a suggestion from the database and the suggestions channel | False |
-| <code>/suggestions comment &lt;id&gt; &lt;comment&gt;</code>   | Comment on a suggestion        |     <premium>True</premium>        |
+| <span className="mention">/config suggestions_channel &lt;channel&gt;</span>      | Set the servers suggestion channel       |   False        |
+| <span className="mention">/suggest &lt;suggestion&gt;</span>    | Suggest something to the server        |     False        |
+| <span className="mention">/suggestions edit &lt;suggestion_id&gt;</span>   | Edit your own suggestion (content)       |     False        |
+| <span className="mention">/suggestions view &lt;suggestion_id&gt;</span>   | View a suggestion in-depth        |     False        |
+| <span className="mention">/suggestions approve &lt;suggestion_id&gt; [comment] [close_voting]</span>    | Approve a suggestion        |     False        |
+| <span className="mention">/suggestions deny &lt;suggestion_id&gt; [comment] [close_voting]</span>    | Deny a suggestion        |     False        |
+| <span className="mention">/suggestions implement &lt;suggestion_id&gt; [comment] [close_voting]</span>    | Implement a suggestion        |     False        |
+| <span className="mention">/suggestions consider &lt;suggestion_id&gt; [comment]</span>   | Consider a suggestion        |     False        |
+| <span className="mention">/suggestions delete &lt;id&gt; [notify_author=True]</span>  | Delete a suggestion from the database and the suggestions channel | False |
+| <span className="mention">/suggestions comment &lt;id&gt; &lt;comment&gt;</span>    | Comment on a suggestion        |     <premium>True</premium>        |
 
 :::caution Warning
 

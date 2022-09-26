@@ -274,6 +274,17 @@ div[class^=announcementBar_] {
   }
 }
 
+.mention {
+  background: #414675;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 3px;
+  transition: all 0.15s ease;
+  &:hover {
+    background:#5865f2;
+  }
+}
+
 .discord-link {
   color: #1c97da;
   &:hover {
