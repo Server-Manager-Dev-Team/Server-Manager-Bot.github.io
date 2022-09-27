@@ -22,8 +22,10 @@ import Button from '../src/components/Button';
     • Cases (moderation) - <a href="/blog/v1.1.0#cases">new in v1.1.0</a>
   </TabItem>
   <TabItem value="roadmap-planned" label="📃 Planned (soon)">
+    • <code>/userinfo</code> slash command & context menu
     <br/>
     • Lockdown command and configs
+    <br/>
     • When clicking the <code>x Entries</code> button on a giveaway, the bot will show all giveaway entries
   </TabItem>
   <TabItem value="roadmap-coming-soon" label="📮 Coming Soon" default>
