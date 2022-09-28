@@ -255,6 +255,58 @@ hr {
   }
 }
 
+.roadmap-completed {
+  display: inline-block;
+  font-family: Whitney;
+  color: white;
+  padding: 1rem;
+  background: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  border-radius: 5px;
+  margin-bottom: 0.75rem;
+  margin-top: 0.75rem;
+  font-size: 1.05rem;
+  color: rgba(88, 101, 242, 0.7);
+  .title {
+    color: white;
+    font-family: ('Saira', monospace);
+    font-size: 1.40rem;
+  }
+}
+
+.roadmap-planned {
+  display: inline-block;
+  font-family: Whitney;
+  color: white;
+  padding: 1rem;
+  background: linear-gradient(to left, #3498db 5%, #0ED2F7 100%);
+  border-radius: 5px;
+  margin-bottom: 0.75rem;
+  margin-top: 0.75rem;
+  font-size: 1.05rem;
+  .title {
+    color: white;
+    font-family: ('Saira', monospace);
+    font-size: 1.40rem;
+  }
+}
+
+.roadmap-coming-soon {
+  display: inline-block;
+  font-family: Whitney;
+  color: white;
+  padding: 1rem;
+  background: linear-gradient(to right, #1F1C2C 10%, #928DAB 90%);
+  border-radius: 5px;
+  margin-bottom: 0.75rem;
+  margin-top: 0.75rem;
+  font-size: 1.05rem;
+  .title {
+    color: white;
+    font-family: ('Saira', monospace);
+    font-size: 1.40rem;
+  }
+}
+
 .timestamp {
   background: #42464d;
   padding-left: 3px;
