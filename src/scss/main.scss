@@ -307,6 +307,52 @@ hr {
   }
 }
 
+.update-new-features {
+  display: inline-block;
+  font-family: Whitney;
+  color: white;
+  padding: 1rem;
+  background: linear-gradient(107deg, rgb(13, 198, 180) 8.1%, rgb(33, 198, 138) 79.5%);
+  border-radius: 5px;
+  margin-bottom: 0.75rem;
+  margin-top: 0.75rem;
+  font-size: 1.05rem;
+  box-shadow: black 0px 14px 28px, rgba(0, 0, 0, 0.384) 0px 10px 10px;
+  .title {
+    color: white;
+    font-family: ('Saira', monospace);
+    font-size: 1.40rem;
+    text-shadow: 2px 2px 8px black;
+  }
+}
+
+.update-bug-fixes {
+  display: inline-block;
+  font-family: Whitney;
+  color: white;
+  padding: 1rem;
+  background: linear-gradient(179.1deg, rgb(43, 170, 96) 2.3%, rgb(57, 179, 16) 98.3%);
+  border-radius: 5px;
+  margin-bottom: 0.75rem;
+  margin-top: 0.75rem;
+  font-size: 1.05rem;
+  box-shadow: black 0px 14px 28px, rgba(0, 0, 0, 0.384) 0px 10px 10px;
+  .title {
+    color: white;
+    font-family: ('Saira', monospace);
+    font-size: 1.40rem;
+    text-shadow: 2px 2px 8px black;
+  }
+}
+
+.checkmark {
+  width: 30px;
+  height: 30px;
+  stroke-width: 3;
+  stroke: green;
+  margin-left: -15px;
+}
+
 .timestamp {
   background: #42464d;
   padding-left: 3px;
@@ -339,6 +385,7 @@ div[class^=announcementBar_] {
 
 .discord-link {
   color: #1c97da;
+  text-shadow: none;
   &:hover {
     color: #5865f2;
   }
@@ -499,7 +546,6 @@ details.customdetails {
       }
       .discord-author-bot-tag {
         font-weight: 500;
-
       }
     }
     .discord-interaction {

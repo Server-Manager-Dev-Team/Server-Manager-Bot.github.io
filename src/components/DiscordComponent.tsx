@@ -18,6 +18,7 @@ export const defaultOptions: DiscordMessageOptions = {
             avatar: '/img/logo.png',
             roleColor: '#5865f2',
             bot: true,
+						verified: true,
         },
 	},
 };
