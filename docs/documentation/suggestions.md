@@ -12,6 +12,9 @@ import {
   DiscordEmbed,
   DiscordEmbedField,
   DiscordEmbedFields,
+  DiscordButton,
+  DiscordButtons,
+  DiscordEmoji
 } from "discord-message-components/packages/react";
 import "discord-message-components/packages/react/dist/style.css";
 
@@ -68,5 +71,17 @@ Suggestion commenting is currently not finished yet and may have some small and 
             </DiscordEmbedFields>
             <span slot="footer">Suggestion ID: wasdabc12340</span>
         </DiscordEmbed>
+      <div>
+        <DiscordButtons>
+          <DiscordButton type="success"><img src="/img/checkmark_emoji.png" className="emoji"/></DiscordButton>
+          <DiscordButton type="danger"><img src="/img/xmark_emoji.png" className="emoji"/></DiscordButton>
+        </DiscordButtons>
+      </div>
+      <div slot="actions">
+        <DiscordButtons>
+          <DiscordButton type="secondary"><img src="/img/leave_emoji.png" className="emoji"/></DiscordButton>
+          <DiscordButton type="secondary" emoji="🔔"></DiscordButton>
+        </DiscordButtons>
+      </div>
     </DiscordMessage>
 </DiscordComponent>
