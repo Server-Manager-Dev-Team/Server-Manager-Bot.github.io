@@ -27,6 +27,7 @@ import Button from '../src/components/Button';
   <div className="title">
   Coming Soon
   </div>
+  <li>Forms system</li>
   <li>Suggestion Manager config roles</li>
   <li>Giveaway manager config roles</li>
   <li>Complete suggestion comments</li>
