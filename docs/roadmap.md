@@ -18,6 +18,7 @@ import Button from '../src/components/Button';
   <div className="title">
   Planned
   </div>
+  <li>Forms system</li>
   <li><code>/userinfo</code> slash command & context menu</li>
   <li>Lockdown command and configs</li>
   <li>When clicking the <strong>'x Entries'</strong> button on a giveaway, the bot will show all giveaway entries</li>
@@ -27,7 +28,6 @@ import Button from '../src/components/Button';
   <div className="title">
   Coming Soon
   </div>
-  <li>Forms system</li>
   <li>Suggestion Manager config roles</li>
   <li>Giveaway manager config roles</li>
   <li>Complete suggestion comments</li>
