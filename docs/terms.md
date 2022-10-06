@@ -32,3 +32,7 @@ sidebar_position: 4
 --- 
 
 ❓ **Have any questions? Join [our support server](https://servermanagerbot.ml/support)**.
+
+<div className="box">
+  Please visit our <a href="/privacy" className="discord-link">Privacy Policy</a>.
+</div>
