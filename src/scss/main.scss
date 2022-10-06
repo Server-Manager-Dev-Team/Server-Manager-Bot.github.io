@@ -345,6 +345,44 @@ hr {
   }
 }
 
+.tooltip {
+  position:relative; /* making the .tooltip span a container for the tooltip text */
+  border-bottom:1px dashed #5865f2; /* little indicater to indicate it's hoverable */
+}
+
+.tooltip:before {
+  content: attr(data-text);
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  left:100%;
+  margin-left:15px;
+  width:200px;
+  padding:7px;
+  border-radius:8px;
+  background:#292b2f;
+  font-family: Whitney;
+  color: #fff;
+  text-align:center;
+  font-size: 0.80rem;
+  border: 1.75px solid rgba(0, 0, 0, 0.884);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  display:none;
+}
+
+.tooltip:hover:after {
+  transition: all 0.30s;
+}
+
+.tooltip:hover:before {
+  display:block;
+}
+
+.tooltip:hover {
+  transition: all .15s ease-in-out, opacity .2s;
+  border-bottom:1px dashed #7881e6;
+}
+
 .checkmark {
   width: 30px;
   height: 30px;

@@ -23,7 +23,7 @@ At Server Manager Development, we strive to bring new features to Server Manager
 ## Features
 
 ### Moderation
-We believe most servers rely on a bot for Moderation. Server Manager is always there to keep your server tidy with light-weight moderation commands that you can rely on to punish rule-breakers. Cases are used so you can view moderation actions long-term *so you don't forget that rule breaker that spammed a month ago then left*. All of your server's moderation data is kept in a secure database, keeping your server's data, your server's data and no one else's.
+We believe most servers rely on a bot for Moderation. Server Manager is always there to keep your server tidy with light-weight moderation commands that you can rely on to punish rule-breakers. Cases are used so you can view moderation actions long-term *so you don't forget that rule breaker that spammed a month ago then left*. All of your server's moderation data is kept in a <span data-text="MongoDB" className="tooltip">secure database</span>, keeping your server's data, your server's data and no one else's.
 
 <DiscordComponent>
   <DiscordMessage profile="servermanager">
@@ -51,7 +51,7 @@ We believe most servers rely on a bot for Moderation. Server Manager is always t
 </DiscordComponent>
 
 ### Giveaways
-Server Manager's giveaway system allows server administrators to easily host giveaways for members to earn \*sweet* prizes. Members can enter a giveaway easily by pressing a simple button: <span className="blurple-background">🎉</span>
+Server Manager's giveaway system allows server administrators to easily host giveaways for members to earn \*sweet* prizes. Members can enter a giveaway easily by pressing a simple <span data-text="This button may be customizable in the future" className="tooltip">button</span>: <span className="blurple-background">🎉</span>
 
 <DiscordComponent>
     <DiscordMessage profile="servermanager" bot>
@@ -156,3 +156,4 @@ Server Manager's giveaway system allows server administrators to easily host giv
   Project Advisor
   </div>
 </div>
+<br/>
