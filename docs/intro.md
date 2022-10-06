@@ -102,7 +102,7 @@ Server Manager's giveaway system allows server administrators to easily host giv
   <br/>
   • <a href="/documentation/suggestions" className="discord-link">Suggestion Documentation</a>
   <br/>
-  • <a href="/documentation/utlity" className="discord-link">Utility Documentation</a>
+  • <a href="/documentation/utility" className="discord-link">Utility Documentation</a>
 </div>
 
 ## Development Team
