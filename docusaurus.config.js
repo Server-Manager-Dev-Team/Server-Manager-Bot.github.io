@@ -65,11 +65,6 @@ const config = {
           position: 'right',
           label: 'Support',
         },
-        {
-          to: '/category/documentation',
-          position: 'right',
-          label: 'Docs',
-        },
       ],
     },
     footer: {
