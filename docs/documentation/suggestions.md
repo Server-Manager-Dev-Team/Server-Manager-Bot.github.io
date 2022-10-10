@@ -18,6 +18,10 @@ import {
 } from "discord-message-components/packages/react";
 import "discord-message-components/packages/react/dist/style.css";
 
+<div className="box">
+  <span className="blurple-background">NEW</span> <strong>/suggest comment</strong> is now non-premium!
+</div>
+
 
 | Usage      | Description | Premium |
 | ----------- | ----------- | ----------- | 
@@ -30,7 +34,7 @@ import "discord-message-components/packages/react/dist/style.css";
 | <span className="mention">/suggestions implement &lt;suggestion_id&gt; [comment] [close_voting]</span>    | Implement a suggestion        |     False        |
 | <span className="mention">/suggestions consider &lt;suggestion_id&gt; [comment]</span>   | Consider a suggestion        |     False        |
 | <span className="mention">/suggestions delete &lt;id&gt; [notify_author=True]</span>  | Delete a suggestion from the database and the suggestions channel | False |
-| <span className="mention">/suggestions comment &lt;id&gt; &lt;comment&gt;</span>    | Comment on a suggestion        |     <premium>True</premium>        |
+| <span className="mention">/suggestions comment &lt;id&gt; &lt;comment&gt;</span>    | Comment on a suggestion        |     False        |
 
 :::caution Warning
 
