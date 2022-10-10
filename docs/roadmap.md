@@ -12,6 +12,7 @@ import Button from '../src/components/Button';
   <li>Multiple choice polls</li>
   <li><code>/config ban_appeal_link</code></li>
   <li><strong>/custom name</strong> & <strong>/custom avatar</strong> for custom branded bots</li>
+  <li>Complete suggestion comments</li>
 </div>
 <br/>
 <div className="roadmap-planned">
@@ -30,7 +31,6 @@ import Button from '../src/components/Button';
   </div>
   <li>Suggestion Manager config roles</li>
   <li>Giveaway manager config roles</li>
-  <li>Complete suggestion comments</li>
   <li>Giveaway winner role configuration</li>
 </div>
 
