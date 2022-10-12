@@ -14,13 +14,13 @@ description: Documentation regarding Moderation
 | <span className="mention">/purge &lt;amount&gt;</span>   | Purge an amount of messages in the current channel    |     False        |
 | <span className="mention">/mute &lt;member&gt; &lt;duration&gt; [reason] [custom_reason] [moderator_hidden]</span>   | Mute a member for a duration using **Discord's Timeout Feature**. (Example `duration` argument: '1h' = 1 hour)    |     False        |
 
-:::danger
-Using the `/delete_all_warnings` command **cannot be undone**!
-:::
+<div className="box red">
+🛑 Using the <span className="mention">/delete_all_warnings</span> command <strong>cannot be undone</strong>!
+</div>
 
-:::caution
-Discord's Timeout feature only allows members to be muted with a max duration of **1 week**. If you try and mute someone for over a week, the bot will send you an error message saying you can't do that
-:::
+<div className="box yellow">
+Discord's Timeout feature only allows members to be muted with a max duration of <strong>1 week</strong>. If you try and mute someone for over a week, the bot will send you an error message saying you can't do that
+</div>
 
 ## Cases
 

@@ -18,7 +18,7 @@ import {
 } from "discord-message-components/packages/react";
 import "discord-message-components/packages/react/dist/style.css";
 
-<div className="box">
+<div className="box blurple">
   <span className="blurple-background">NEW</span> <strong>/suggest comment</strong> is now non-premium!
 </div>
 
@@ -36,12 +36,9 @@ import "discord-message-components/packages/react/dist/style.css";
 | <span className="mention">/suggestions delete &lt;id&gt; [notify_author=True]</span>  | Delete a suggestion from the database and the suggestions channel | False |
 | <span className="mention">/suggestions comment &lt;id&gt; &lt;comment&gt;</span>    | Comment on a suggestion        |     False        |
 
-:::caution Warning
-
-Deleting a suggestion message **doesn't actually delete the suggestion from the database**. Please use `/suggestion delete` to delete a suggestion.
-
-:::
-
+<div className="box red">
+Deleting a suggestion message <strong>doesn't actually delete the suggestion from the database</strong>. Please use <span className="mention">/suggestion delete</span> to delete a suggestion.
+</div>
 
 ## Examples
 
@@ -74,14 +71,15 @@ Deleting a suggestion message **doesn't actually delete the suggestion from the 
         </DiscordEmbed>
       <div>
         <DiscordButtons>
-          <DiscordButton type="success"><img src="/img/checkmark_emoji.png" className="emoji"/></DiscordButton>
-          <DiscordButton type="danger"><img src="/img/xmark_emoji.png" className="emoji"/></DiscordButton>
+          <DiscordButton type="success"><img src="/img/greenupvote.png" className="emoji"/></DiscordButton>
+          <DiscordButton type="danger"><img src="/img/reddownvote.png" className="emoji"/></DiscordButton>
         </DiscordButtons>
       </div>
       <div slot="actions">
         <DiscordButtons>
           <DiscordButton type="secondary"><img src="/img/leave_emoji.png" className="emoji"/></DiscordButton>
           <DiscordButton type="secondary" emoji="🔔"></DiscordButton>
+          <DiscordButton type="secondary"><img src="/img/commentemoji.png" className="emoji"/></DiscordButton>
         </DiscordButtons>
       </div>
     </DiscordMessage>

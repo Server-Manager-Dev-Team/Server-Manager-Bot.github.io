@@ -23,9 +23,9 @@ import DiscordComponent, { defaultOptions } from "../../src/components/DiscordCo
 
 |     Usage               |  Description   | Premium |
 | ----------------------- | ----------- | ----------- |
-| <code>/poll start &lt;topic&gt; [description] [duration] [@ping_role] [#channel]</code> | Start a poll with an optional duration       |   False        |
-| <code>/poll multiple_choice &lt;topic&gt; &lt;choice_1&gt &lt;choice_2&gt  [choice_3] [choice_4] [choice_5] [description] [duration] [@ping_role] [#channel]</code> | Start a poll with multiple choice options       |   False        |
-| <code>/poll end &lt;poll_id&gt;</code>   | End a poll via poll ID        |     False        |
+| <span className="mention">/poll start &lt;topic&gt; [description] [duration] [@ping_role] [#channel]</span> | Start a poll with an optional duration       |   False        |
+| <span className="mention">/poll multiple_choice &lt;topic&gt; &lt;choice_1&gt &lt;choice_2&gt  [choice_3] [choice_4] [choice_5]<span> </span>[description]<span> </span>[duration]<span> </span>[@ping_role]<span> </span>[#channel]</span> | Start a poll with multiple choice options       |   False        |
+| <span className="mention">/poll end &lt;poll_id&gt;</span>   | End a poll via poll ID        |     False        |
 
 <br/>
 
@@ -55,7 +55,7 @@ import DiscordComponent, { defaultOptions } from "../../src/components/DiscordCo
                 <strong>Downvotes:</strong> 0 <code>(0%)</code>
                 </DiscordEmbedField>
                 <DiscordEmbedField fieldTitle="Ends">
-                <code>in 7 days</code>
+                <span className="timestamp">in 7 days</span>
                 </DiscordEmbedField>
             </DiscordEmbedFields>
             <span slot="footer">Vote using the buttons below • Poll ID: 12345678</span>
@@ -67,14 +67,14 @@ import DiscordComponent, { defaultOptions } from "../../src/components/DiscordCo
       </div>
       <div>
         <DiscordButtons>
-          <DiscordButton type="success" emoji="✅"></DiscordButton>
+          <DiscordButton type="success"><img src="/img/checkmark_emoji.png" className="emoji"/></DiscordButton>
           <DiscordButton type="secondary" disabled="true">|</DiscordButton>
-          <DiscordButton type="danger" emoji="❌"></DiscordButton>
+          <DiscordButton type="danger"><img src="/img/xmark_emoji.png" className="emoji"/></DiscordButton>
         </DiscordButtons>
       </div>
       <div slot="actions">
         <DiscordButtons>
-          <DiscordButton type="danger" emoji="🚪">Leave Poll</DiscordButton>
+          <DiscordButton type="danger"><img src="/img/leave_emoji.png" className="emoji"/>Leave Poll</DiscordButton>
         </DiscordButtons>
       </div>
     </DiscordMessage>

@@ -33,6 +33,6 @@ sidebar_position: 4
 
 ❓ **Have any questions? Join [our support server](https://servermanagerbot.ml/support)**.
 
-<div className="box">
+<div className="box red">
   Please visit our <a href="/privacy" className="discord-link">Privacy Policy</a>.
 </div>

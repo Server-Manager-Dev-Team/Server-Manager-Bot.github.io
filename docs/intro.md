@@ -88,7 +88,7 @@ Server Manager's giveaway system allows server administrators to easily host giv
 </DiscordComponent>
 
 ### ...And much more! {#more}
-<div className="box" style={{'margin-top': '0'}}>
+<div className="box blurple" style={{'margin-top': '0'}}>
   <div className="title">
     Helpful Docs
   </div>

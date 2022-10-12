@@ -23,11 +23,11 @@ import DiscordComponent, { defaultOptions } from "../../src/components/DiscordCo
 
 |     Usage               |  Description   | Premium |
 | ----------------------- | ----------- | ----------- |
-| <code>/giveaway start [...]</code> | Start a giveaway       |   False        |
-| <code>/giveaway end <giveaway_id></code>   | End a giveaway via giveaway ID        |     False        |
-| <code>/giveaway reroll <giveaway_id> &lt;winners&gt; </code>   | Reroll a giveaway        |     False        |
-| <code>/giveaway delete <giveaway_id></code>   | Delete a giveaway from the database        |     False        |
-| <code>/giveaway view [giveaway_id]<a></a>[hidden]</code>   | View a giveaway or all giveaways        |     False        |
+| <span className="mention">/giveaway start [...]</span> | Start a giveaway       |   False        |
+| <span className="mention">/giveaway end <giveaway_id></span>   | End a giveaway via giveaway ID        |     False        |
+| <span className="mention">/giveaway reroll <giveaway_id> &lt;winners&gt;</span>   | Reroll a giveaway        |     False        |
+| <span className="mention">/giveaway delete <giveaway_id></span>   | Delete a giveaway from the database        |     False        |
+| <span className="mention">/giveaway view [giveaway_id]<span> </span>[hidden]</span>   | View a giveaway or all giveaways        |     False        |
 
 <br/>
 
@@ -65,7 +65,7 @@ import DiscordComponent, { defaultOptions } from "../../src/components/DiscordCo
       <div slot="actions">
         <DiscordButtons>
           <DiscordButton type="primary" emoji="🎉"></DiscordButton>
-          <DiscordButton type="secondary" disabled="true">5 entries</DiscordButton>
+          <DiscordButton type="secondary">10 entries</DiscordButton>
         </DiscordButtons>
       </div>
     </DiscordMessage>
@@ -77,3 +77,7 @@ import DiscordComponent, { defaultOptions } from "../../src/components/DiscordCo
   
 ### Why can't I remove giveaway entries? {#removing-giveaway-entries}
 The reason you can't do this is supported by many ways how a giveaway can be rigged if a manage giveaway entries feature is added. We believe in fair giveaways and no giveaway entries are removed. We understand that some giveaway hosts may want to enforce a custom requirement manually. However, this is why the `/giveaway reroll` command exists and allows you to re-roll the giveaway an unlimited amount of times. Thus, removing the audacity to manage giveaway entries. In the `/giveaway view` command, we may (sooner than later) allow giveaway entries to be viewed but not managed.
+
+<div className="box blurple">
+<span className="blurple-background">NEW</span> You can now view giveaway entries by pressing the <strong>x Entries</strong> button (<a className="discord-link" href="../blog/v1.1.2">v1.1.2</a>)
+</div>
