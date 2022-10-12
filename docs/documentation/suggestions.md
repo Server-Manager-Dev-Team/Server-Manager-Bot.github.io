@@ -42,9 +42,6 @@ Deleting a suggestion message **doesn't actually delete the suggestion from the 
 
 :::
 
-:::note
-Suggestion commenting is currently not finished yet and may have some small and minor bugs.
-:::
 
 ## Examples
 
