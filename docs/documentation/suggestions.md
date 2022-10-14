@@ -18,7 +18,7 @@ import {
 } from "discord-message-components/packages/react";
 import "discord-message-components/packages/react/dist/style.css";
 
-<div className="box blurple">
+<div className="box blurple animation no-background">
   <span className="blurple-background">NEW</span> <strong>/suggest comment</strong> is now non-premium!
 </div>
 

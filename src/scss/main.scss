@@ -250,11 +250,23 @@ hr {
   border-radius: 5px;
   margin-bottom: 0.75rem;
   margin-top: 0.75rem;
-  transition: all 0.5s ease;
+  font-size: 90%;
   .title {
     font-family: ('Saira', monospace);
     font-size: 1.20rem;
   }
+  // &:hover {
+  //   transform: translateY(-2px);
+  //   box-shadow: black 0px 5px 15px;
+  // }
+}
+
+.box.no-background {
+  background-color: inherit;
+}
+
+.box.animation {
+  transition: all 0.5s ease;
   &:hover {
     transform: translateY(-2px);
     box-shadow: black 0px 5px 15px;
