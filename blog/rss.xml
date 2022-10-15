@@ -4,10 +4,20 @@
         <title>Server Manager Blog</title>
         <link>https://servermanagerbot.ml/blog</link>
         <description>Server Manager Blog</description>
-        <lastBuildDate>Sun, 09 Oct 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 15 Oct 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Release v1.1.3]]></title>
+            <link>https://servermanagerbot.ml/blog/v1.1.3</link>
+            <guid>v1.1.3</guid>
+            <pubDate>Sat, 15 Oct 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Hey everyone, I've got a quick release for you that includes a new feature and a necessary feature removal.]]></description>
+            <content:encoded><![CDATA[<p>Hey everyone, I've got a quick release for you that includes a new feature and a necessary feature removal.</p><div class="box blurple animation no-background"><div class="title">New Features</div><li><span class="mention">/userinfo</span> slash command and context menu (<a class="discord-link" href="/documentation/utility">documentation</a>)</li></div><div class="box red animation no-background"><div class="title">Removed Features</div><li>The ability to view giveaway entries (<a class="discord-link" href="/v1.1.2">released in v1.1.2</a>)</li>→ <em>removed to ensure user-privacy when entering a giveaway</em></div><h3>Want to contribute to Server Manager?</h3><div class="pyc-hero__actions"><a href="https://discord.gg/6bCKvP24kb" target="_blank" rel="noopener noreferrer" class="pyc-button" aria-label="Join our Support Server"><span class="pyc-button__label">Join our Support Server</span></a></div>]]></content:encoded>
+            <category>New Version</category>
+            <category>Updates</category>
+        </item>
         <item>
             <title><![CDATA[Release v1.1.2]]></title>
             <link>https://servermanagerbot.ml/blog/v1.1.2</link>
