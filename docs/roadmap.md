@@ -14,14 +14,15 @@ import Button from '../src/components/Button';
   <li><strong>/custom name</strong> & <strong>/custom avatar</strong> for custom branded bots</li>
   <li>Complete suggestion comments</li>
   <li>When clicking the <strong>'x Entries'</strong> button on a giveaway, the bot will show all giveaway entries</li>
+  <li><code>/userinfo</code> slash command & context menu</li>
 </div>
 <br/>
 <div className="roadmap-planned">
   <div className="title">
   Planned
   </div>
-  <li><code>/userinfo</code> slash command & context menu</li>
   <li>Lockdown command and configs</li>
+  <li>Have the <span className="mention">/userinfo</span> command & context menu show a brief to mod cases</li>
 </div>
 <br/>
 <div className="roadmap-coming-soon">
