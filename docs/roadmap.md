@@ -13,16 +13,15 @@ import Button from '../src/components/Button';
   <li><code>/config ban_appeal_link</code></li>
   <li><strong>/custom name</strong> & <strong>/custom avatar</strong> for custom branded bots</li>
   <li>Complete suggestion comments</li>
+  <li>When clicking the <strong>'x Entries'</strong> button on a giveaway, the bot will show all giveaway entries</li>
 </div>
 <br/>
 <div className="roadmap-planned">
   <div className="title">
   Planned
   </div>
-  <li>Forms system</li>
   <li><code>/userinfo</code> slash command & context menu</li>
   <li>Lockdown command and configs</li>
-  <li>When clicking the <strong>'x Entries'</strong> button on a giveaway, the bot will show all giveaway entries</li>
 </div>
 <br/>
 <div className="roadmap-coming-soon">
