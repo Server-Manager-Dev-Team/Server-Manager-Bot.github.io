@@ -250,7 +250,7 @@ hr {
   border-radius: 5px;
   margin-bottom: 0.75rem;
   margin-top: 0.75rem;
-  font-size: 96.5%;
+  font-size: 98%;
   .title {
     font-family: ('Saira', monospace);
     font-size: 1.20rem;
@@ -291,6 +291,10 @@ hr {
 
 .box.blue {
   border: 1.75px solid #1c97da;
+}
+
+.box.grey {
+  border: 1.75px solid #607d8b;
 }
 
 

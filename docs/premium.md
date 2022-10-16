@@ -25,24 +25,26 @@ Support the bot with a $2 donation. This will help with hosting costs. To show o
 ## Super Supporter Tier
 **Get your very own custom branded Server Manager**! The custom client/bot will <u>not be modified code-wise what so ever</u>, however, it comes with free premium and a custom name/custom profile picture. All of this you can set on the Developer Portal on your Discord account. Please note that you will have to give the Developer the token from the Developer Portal in order for the bot to appear online. A status command is included in the custom bot so you can customize the bot's status to fit your server.
 
-:::info
-
-The **Advanced Supporter** tier is the same as this tier, but offers downgraded hosting compared to the Super Supporter Tier (the hosting that Server Manager uses).
-
-:::
+<div className="box blurple animation no-background">
+The <strong>Advanced Supporter</strong> tier is the same as this tier, but offers downgraded hosting compared to the <strong>Super Supporter</strong> Tier (the hosting that Server Manager uses).
+</div>
 
 ### Perks
   - Everything in the previous tier
   - **Custom branded Server Manager**
 
 
-:::note
+<div className="box grey no-background" style={{'padding-bottom': '0'}}>
+<div className="title">
+Note
+</div>
+
 Please note that you must be in the [support server](/support.html) to be able to redeem this tier along with the other tiers! While you have this tier, your payment pays for the hosting for your bot. You also **do not** get access to your custom branded bot's code.
 
 You will be able to customize the bot's profile picture and name to your liking as you will have access to the bot's application on the [Discord Developer Portal](https://discord.dev). You will have to give us this token to use or else the bot won't be online.
 
 If you mess with the [Discord Developer Portal](https://discord.dev) application and it cause your bot to go offline, you will have to contact our support bot.
-:::
+</div>
 
 ### Redeeming
 
@@ -51,10 +53,13 @@ If you mess with the [Discord Developer Portal](https://discord.dev) application
 
 <h2>Creating your Custom Branded Server Manager</h2>
 <br/>
+<div className="box grey no-background" style={{'padding-bottom': '0'}}>
+<div className="title">
+Note
+</div>
 
-:::note
 We recommend prior knowledge of creating an application on the [Discord Developer Portal](https://discord.com/developers/applications) in order to follow along with these steps. If you need any help, feel free to shoot us a message via our Support Bot (**Helper#7371**) and we can try and provide extra support.
-:::
+</div>
 
 **1.** Go to the [Discord Developer Portal](https://discord.com/developers/applications) and click <mention>New Application</mention>
 
@@ -85,16 +90,13 @@ We recommend prior knowledge of creating an application on the [Discord Develope
 
 ![Intents image](./assets/intents.PNG)
 
-<Admonition type="tip" icon="✅" title="Success">
-  <p>
-    You've created the bot application for your <strong>Custom Branded Server Manager bot</strong>!
-    <br/>
-    <br/>
-    Please make sure to message our support bot (<strong>Helper#7371</strong>) in our <a href="https://servermangerbot.ml/support">support server</a> in order to redeem your custom bot, please also provide the <strong><u>token</u></strong> you have copied from earlier!
-  </p>
-
-</Admonition>
-
+<div className="box green animation no-background">
+<div className="title">
+Success
+</div>
+You've created the bot application for your <strong>Custom Branded Server Manager bot</strong>!
+Please make sure to message our support bot (<strong>Helper#7371</strong>) in our <a href="https://servermangerbot.ml/support">support server</a> in order to redeem your custom bot, please also provide the <strong><u>token</u></strong> you have copied from earlier!
+</div>
 </details>
 
 <div className="pyc-hero__actions">
@@ -104,6 +106,4 @@ We recommend prior knowledge of creating an application on the [Discord Develope
 ## Donations
 We greatly appriciate donations from the community. Your donations and premium purchases help with hosting costs and other development costs down the road. Unfortunately, we don't have any perks for donations. **However**, we will most likely come up with perks soon!
 
-<div className="pyc-hero__actions">
-  <Button link="http://ko-fi.com/servermanager">Donate</Button>
-</div>
+<iframe id='kofiframe' src='https://ko-fi.com/servermanager/?hidefeed=true&widget=true&embed=true&preview=true' style={{'width':'100%', 'padding':'2px', 'background':'#5865f2'}} height='712' title='servermanager'></iframe>

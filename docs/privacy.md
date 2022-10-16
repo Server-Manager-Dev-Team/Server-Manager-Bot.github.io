@@ -41,6 +41,6 @@ We may update our Privacy Policy from time to time. Thus, you are advised to rev
 
 If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us in [our support server](https://servermanagerbot.ml/support).
 
-<div className="box red">
+<div className="box red no-background">
   Please visit our <a href="/terms" className="discord-link">Terms of Service</a>.
 </div>

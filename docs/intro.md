@@ -157,3 +157,11 @@ Server Manager's giveaway system allows server administrators to easily host giv
   </div>
 </div>
 <br/>
+
+## 💎Premium {#premium}
+
+Check out our in-depth premium page **[here](./premium.md)**!
+
+<script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Us on Ko-fi', '#5865f2', 'W7W8E0CPG');kofiwidget2.draw();</script> 
+
+<iframe id='kofiframe' src='https://ko-fi.com/servermanager/?hidefeed=true&widget=true&embed=true&preview=true' style={{'width':'100%', 'padding':'2px', 'background':'#5865f2'}} height='712' title='servermanager'></iframe>
