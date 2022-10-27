@@ -4,6 +4,12 @@ nziie:
   url: https://nziie.is-a.dev
   image_url: https://github.com/Nzii3.png
 
+jonfirexbox:
+ name: Jonfirexbox
+ Title: Development Team
+ url: https://jonfirexbox.github.io
+ image_url: https://github.com/kyro3400.png
+
 ## Copy the format above when adding a new author as a preset author
 # NOTE: A preset author should only be added if someone has contributed or has wrote a blog 3 or more times
 #                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
