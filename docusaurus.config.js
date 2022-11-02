@@ -88,7 +88,7 @@ const config = {
               to: "/privacy"
             },
             {
-              label: 'Vote on Top.gg',
+              label: '⏫ Vote on Top.gg',
               href: "https://top.gg/bot/999132132754600016/vote"
             }
           ]

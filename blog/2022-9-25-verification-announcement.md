@@ -56,3 +56,5 @@ Our roadmap is constantly being updated with new feature that we're added. [Chec
     𝗔𝗻𝗼𝗻𝗗𝗲𝘃#4280
   </div>
 </div>
+
+<a href="https://discord.gg/6bCKvP24kb"><img src="/img/sm_supportserver.png" className="betterimage"/></a>

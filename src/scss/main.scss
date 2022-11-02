@@ -107,6 +107,16 @@ premium {
   background-color: inherit;
 }
 
+.betterimage {
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  transition: all 0.5s ease;
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: black 0px 5px 15px;
+  }
+}
+
 h1,
 h2,
 h3 {
@@ -401,40 +411,38 @@ hr {
 
 .tooltip {
   position:relative; /* making the .tooltip span a container for the tooltip text */
-  border-bottom:1px dashed #5865f2; /* little indicater to indicate it's hoverable */
+  border-bottom:1px dotted #323335; /* little indicater to indicate it's hoverable */
 }
 
 .tooltip:before {
   content: attr(data-text);
   position:absolute;
-  top:50%;
-  transform:translateY(-50%);
-  left:100%;
-  margin-left:15px;
-  width:200px;
-  padding:7px;
+  bottom: 125%;
+  left: 60%;
+  margin-left: -60px;
+  padding:0.5rem;
   border-radius:8px;
-  background:#292b2f;
+  background:#18191c;
   font-family: Whitney;
+  border: 1.5px solid #5865f2;
   color: #fff;
   text-align:center;
-  font-size: 0.80rem;
-  border: 1.75px solid rgba(0, 0, 0, 0.884);
+  font-size: 0.9rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  display:none;
+  opacity:0;
+  transition: all .30s;
+  display: inline-block;
 }
 
-.tooltip:hover:after {
-  transition: all 0.30s;
-}
 
 .tooltip:hover:before {
-  display:block;
+  opacity:1;
 }
 
+
 .tooltip:hover {
-  transition: all .15s ease-in-out, opacity .2s;
-  border-bottom:1px dashed #7881e6;
+  transition: all .20s ease-in-out, opacity .2s;
+  border-bottom:1px dotted #2d2f36;
 }
 
 .checkmark {
@@ -608,6 +616,7 @@ details.customdetails {
   width: 1.375em;
   height: 1.375em;
   vertical-align: bottom;
+  margin-bottom: 2px;
 }
 
 .emoji.jumboable {

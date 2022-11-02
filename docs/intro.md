@@ -20,6 +20,8 @@ import DiscordComponent, { defaultOptions } from "../src/components/DiscordCompo
 
 At Server Manager Development, we strive to bring new features to Server Manager. These new features are stable, customizable, and reliable. Server admins/owners can customize these features/systems with easy-to-use configuration slash commands.
 
+<img src="/img/checkmarkb_animated.gif" className="emoji"/> <strong>Server Manager is verified by Discord</strong>
+
 ## Features
 
 ### Moderation
@@ -165,3 +167,9 @@ Check out our in-depth premium page **[here](./premium.md)**!
 <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Us on Ko-fi', '#5865f2', 'W7W8E0CPG');kofiwidget2.draw();</script> 
 
 <iframe id='kofiframe' src='https://ko-fi.com/servermanager/?hidefeed=true&widget=true&embed=true&preview=true' style={{'width':'100%', 'padding':'2px', 'background':'#5865f2'}} height='712' title='servermanager'></iframe>
+
+<br/>
+
+<hr/>
+
+<a href="https://discord.gg/6bCKvP24kb"><img src="/img/sm_supportserver.png" className="betterimage"/></a>

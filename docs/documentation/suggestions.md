@@ -34,9 +34,9 @@ import "discord-message-components/packages/react/dist/style.css";
 | <span className="mention">/suggestions implement &lt;suggestion_id&gt; [comment] [close_voting]</span>    | Implement a suggestion        |     False        |
 | <span className="mention">/suggestions consider &lt;suggestion_id&gt; [comment]</span>   | Consider a suggestion        |     False        |
 | <span className="mention">/suggestions delete &lt;id&gt; [notify_author=True]</span>  | Delete a suggestion from the database and the suggestions channel | False |
-| <span className="mention">/suggestions comment &lt;id&gt; &lt;comment&gt;</span>    | Comment on a suggestion        |     False        |
+| <span className="mention">/suggestions comment &lt;id&gt; &lt;comment&gt;</span>    | Comment on a suggestion (<a href="/blog/v1.1.2">New in v1.1.2</a>)        |     False        |
 
-<div className="box red">
+<div className="box red no-background animation">
 Deleting a suggestion message <strong>doesn't actually delete the suggestion from the database</strong>. Please use <span className="mention">/suggestion delete</span> to delete a suggestion.
 </div>
 
