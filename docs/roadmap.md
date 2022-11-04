@@ -15,6 +15,7 @@ import Button from '../src/components/Button';
   <li>Complete suggestion comments</li>
   <li>When clicking the <strong>'x Entries'</strong> button on a giveaway, the bot will show all giveaway entries</li>
   <li><code>/userinfo</code> slash command & context menu</li>
+  <li>Reaction entry type enforce requirements (beta bot)</li>
 </div>
 <br/>
 <div className="roadmap-planned">
@@ -33,6 +34,5 @@ import Button from '../src/components/Button';
   <li>Giveaway manager config roles</li>
   <li>Giveaway winner role configuration</li>
   <li>Extra giveaway entries</li>
-  <li>Reaction entry type (giveaways)</li>
 </div>
 

@@ -200,18 +200,17 @@ body {
 .hide {
   transition: all 0.20s ease;
   opacity: 0;
-  max-width: 200px;
   display: inline-block;
+  max-width: 280px;
   margin-left: 10px;
   padding: 0.75rem;
-  padding-right: 2.5rem;
   background-color: #23272a;
   border-radius: 7px;
   border: 1.75px solid #5865f2;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   .title {
     font-family: ('Saira', monospace);
-    font-size: 1.15rem;
+    font-size: 1.10rem;
     padding-left: 1rem;
     margin-left: 1.5rem;
   }
