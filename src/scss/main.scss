@@ -185,6 +185,56 @@ body {
   }
 }
 
+.user {
+  background: #414675;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-radius: 3px;
+  transition: all 0.15s ease;
+  font-weight:500;
+  &:hover {
+    background:#5865f2;
+  }
+}
+
+.hide {
+  transition: all 0.20s ease;
+  opacity: 0;
+  max-width: 200px;
+  display: inline-block;
+  margin-left: 10px;
+  padding: 0.75rem;
+  padding-right: 2.5rem;
+  background-color: #23272a;
+  border-radius: 7px;
+  border: 1.75px solid #5865f2;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  .title {
+    font-family: ('Saira', monospace);
+    font-size: 1.15rem;
+    padding-left: 1rem;
+    margin-left: 1.5rem;
+  }
+  .comment {
+    font-family: Whitney;
+    font-size: 80%;
+    padding-top: 0.6rem;
+    font-weight:lighter;
+  }
+}
+
+
+.pfp-box {
+  float: left;
+  border-radius: 50%;
+  width: 2rem;
+}
+
+.user:hover + .hide {
+  opacity: 1;
+  transition: all 0.20s ease-in-out;
+}
+
 mention {
   font-weight: 900;
   background: #5865f2;
