@@ -10,6 +10,12 @@ jonfirexbox:
  url: https://github.com/Kyro3400
  image_url: https://github.com/kyro3400.png
 
+neb:
+ name: Neb
+ title: Development Team
+ url: https://servermanagerbot.ml/intro#development-team
+ image_url: https://cdn.discordapp.com/avatars/691749834352361574/be416c6ed413629abaaabacef5de4534.png?size=1024
+
 ## Copy the format above when adding a new author as a preset author
 # NOTE: A preset author should only be added if someone has contributed or has wrote a blog 3 or more times
 #                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
