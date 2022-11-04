@@ -32,5 +32,7 @@ import Button from '../src/components/Button';
   <li>Suggestion Manager config roles</li>
   <li>Giveaway manager config roles</li>
   <li>Giveaway winner role configuration</li>
+  <li>Extra giveaway entries</li>
+  <li>Reaction entry type (giveaways)</li>
 </div>
 
