@@ -1,6 +1,7 @@
 {
   "position": 2,
   "label": "Documentation",
+  "collapsed": false,
   "link": {
     "type": "generated-index"
   }
