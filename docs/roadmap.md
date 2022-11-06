@@ -4,6 +4,13 @@ description: Server Manager's road map for the future
 ---
 import Button from '../src/components/Button';
 
+# Roadmap Migrated
+The roadmap has been moved to our [support server](./support.html) and a new roadmap will be released at the start of each month.
+
+---
+
+> <em>Last updated 11/5/2022</em>
+
 <div className="roadmap-completed">
   <div className="title">
   Completed
