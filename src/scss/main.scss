@@ -197,6 +197,18 @@ body {
   }
 }
 
+.gradient-blurple {
+  background-image: linear-gradient(60deg, #5865f2, #9199f1);
+  background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+.gradient-giveaways {
+  background-image: linear-gradient(to bottom, #e91e63, #8400ff);
+  background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
 .hide {
   transition: all 0.20s ease;
   opacity: 0;

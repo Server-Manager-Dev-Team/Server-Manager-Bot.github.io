@@ -38,9 +38,10 @@ const config = {
     ],
   ],
   themeConfig: {
-    // announcementBar: {
-    //   content: `🎉 <strong>Server Manager</strong> a new version has been released! <a href="/blog/v1.1.2">Read more...</a>!`,
-    // },
+    announcementBar: {
+      content: `🎉 A new version has been released! <a href="/blog/v1.2.0">Read more...</a>!`,
+      isCloseable: false,
+    },
     docs: {
       sidebar: {
         autoCollapseCategories: true,
