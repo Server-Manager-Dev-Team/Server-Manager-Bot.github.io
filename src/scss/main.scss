@@ -344,6 +344,10 @@ hr {
   }
 }
 
+.box.shadow {
+  box-shadow: black 0px 5px 15px;
+}
+
 .box.blurple {
   border: 1.75px solid #5865f2;
 }
@@ -727,6 +731,16 @@ details.customdetails {
   //       We Should be able to remove everything below here, but for some reason it doesn't work without it. Also, some
   //       of it hasn't been added to the component package yet anyways so that needs to be done.
   .discord-message {
+    .discord-embed-footer {
+      color:white;
+      font-size: 12px;
+    }
+    .discord-embed-field-title {
+      color:white !important;
+      font-weight: bolder;
+      font-family: Whitney;
+      font-size: 14px;
+    }
     .discord-author-info {
       .discord-author-username {
         letter-spacing: unset;
