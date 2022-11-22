@@ -76,7 +76,7 @@ const config = {
           title: "Server Manager",
           items: [
             {
-              label: "Support",
+              label: "Support Server",
               href: "https://discord.gg/6bCKvP24kb"
             },
             {
@@ -97,8 +97,8 @@ const config = {
         title: "Other",
         items: [
           {
-            label: "GitHub",
-            href: "https://github.com/Server-Manager-Dev-Team/website"
+            label: "Forum Support",
+            href: "https://forum.servermanagerbot.ml"
           },
           {
             label: "Blog",
