@@ -5,6 +5,7 @@ sidebar_position: 1
 ---
 
 import Button from '../../src/components/Button';
+import Highlight from '@site/src/components/Highlight';
 import {
   DiscordInteraction,
   DiscordMessage,
@@ -25,7 +26,7 @@ import DiscordComponent, { defaultOptions } from "../../src/components/DiscordCo
 
 <div className="box gold no-background shadow">
 <div className="title">
-✨ New ✨
+<icon icon="fa-solid fa-wand-magic-sparkles" size="sm" style={{'color': '#d2af26'}}/> New 
 </div>
 <p>Officially released as of 12/20/2022; if you encounter any bugs, submit a <a href="https://forum.servermanagerbot.ml">help request on our forum</a>!</p>
 </div>
