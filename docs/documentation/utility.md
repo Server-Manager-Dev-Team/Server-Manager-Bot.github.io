@@ -14,10 +14,6 @@ import {
 } from "discord-message-components/packages/react";
 import "discord-message-components/packages/react/dist/style.css";
 
-<div className="box blurple animation no-background">
-  <span className="blurple-background">NEW</span> <span className="mention">/userinfo</span> slash command and context menu
-</div>
-
 | Usage      | Description | Premium |
 | ----------- | ----------- | ----------- |
 | <span className="mention">/userinfo</span> <span className="blurple-background">NEW</span>     | View in-depth info for a user       |   False        |

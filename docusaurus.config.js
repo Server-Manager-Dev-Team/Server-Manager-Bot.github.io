@@ -38,7 +38,7 @@ const config = {
   ],
   themeConfig: {
     announcementBar: {
-      content: `🎉 A new version has been released! <a href="/blog/v1.2.0">Read more...</a>!`,
+      content: `🎉 A new system has been released: <storng>Forms</strong> <a href="/documentation/forms">Check it out!</a>`,
       isCloseable: false,
     },
     docs: {

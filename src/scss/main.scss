@@ -312,12 +312,13 @@ hr {
 .box {
   display: inline-block;
   font-family: Whitney;
-  border: 1.80px solid rgba(0, 0, 0, 0.589);
+  border: inherit;
+  // border: 1.80px solid rgba(0, 0, 0, 0.589);
   padding-top: 1rem;
   padding-bottom: 1rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-  background-color: rgba(41,43,47,255);
+  background-color: inherit;
   border-radius: 5px;
   margin-bottom: 0.75rem;
   margin-top: 0.75rem;
@@ -350,6 +351,10 @@ hr {
 
 .box.blurple {
   border: 1.75px solid #5865f2;
+}
+
+.box.gold {
+  border: 1.75px solid #d2af26;
 }
 
 .box.red {
@@ -551,6 +556,34 @@ div[class^=announcementBar_] {
 
 p {
   font-size: 1.05rem;
+}
+
+p a {
+  color: #1c97da;
+  text-shadow: none;
+  display: inline-block;
+  position: relative;
+  &:hover {
+    color: #1c97da
+  }
+  &::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: 
+    #1c97da;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  &:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+
 }
 
 .discord-link {

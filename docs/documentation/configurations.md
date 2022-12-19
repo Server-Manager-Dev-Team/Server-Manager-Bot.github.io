@@ -15,13 +15,13 @@ import {
 } from "discord-message-components/packages/react";
 import "discord-message-components/packages/react/dist/style.css";
 
-<div className="box yellow animation">
+<div className="box yellow no-background">
 ⚠ To use any of these commands, you need to have <strong>Manage Guild</strong> permissions or be in one or more of the <code>admin_roles</code> config roles set by the server.
 </div>
 
 ## Administrator Roles
 
-<div className="box red animation">
+<div className="box red no-background animation">
 🛑 Anyone with <strong>Manage Guild</strong> permissions or higher automatically by-pass this check.
 </div>
 
@@ -33,7 +33,7 @@ import "discord-message-components/packages/react/dist/style.css";
 
 ## Moderator Roles
 
-<div className="box animation">
+<div className="box gold shadow">
 Anyone in the <code>admin_roles</code> role(s) configuration automatically by-pass this check.
 </div>
 
@@ -66,7 +66,7 @@ Anyone in the <code>admin_roles</code> role(s) configuration automatically by-pa
 
 ## Logging
 
-<div className="box no-background" style={{'padding-bottom':'0.25rem'}}>
+<div className="box shadow" style={{'padding-bottom':'0.25rem'}}>
 <div className="title">
 Logging Examples
 </div>
