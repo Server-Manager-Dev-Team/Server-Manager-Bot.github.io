@@ -54,6 +54,8 @@ There are many configurations and values to set in the forms system, let's break
 | <span className="timestamp">Given roles</span>  | Set the roles that are given when a form is approved/accepted (max. 5) | <span className="mention">@Staff Team</span> |
 | <span className="timestamp">Required roles</span>  | Set the required roles in order to use the form (max. 5) | <span className="mention">@Member</span> |
 | <span className="timestamp">Ping roles</span>  | Set the roles that are pinged when a form is submitted (max. 3) | <span className="mention">@Staff Team</span>, <span className="mention">@Management Team</span> |
+| <span className="timestamp">Accepted message</span>  | Yes, you can customize the message that is used in the DM that's sent to a user when their form is accepted | Default: Your form in **Server Name** has been accepted! |
+| <span className="timestamp">Denied message</span>  | Yup, you can also customize the denial message | Default: Your form in **Server Name** has been denied. | 
 
 ### Need Support?
 Contact us on our [forum page](https://forum.servermanagerbot.ml) for support on using forms!
