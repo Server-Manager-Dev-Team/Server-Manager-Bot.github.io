@@ -39,7 +39,7 @@ import DiscordComponent, { defaultOptions } from "../../src/components/DiscordCo
 | <span className="mention">/form &lt;name&gt;</span>  | Submit/complete a form       |   False        |
 | <span className="mention">/apply &lt;name&gt;</span>  | Submit/complete a form (alias for <span className="mention">/form</span>)     |   False        |
 
-## Configurations
+## <icon icon="fa-solid fa-gear"/> Configurations {#configurations}
 There are many configurations and values to set in the forms system, let's break it down...
 
 | Name | Description | Example |
@@ -47,3 +47,6 @@ There are many configurations and values to set in the forms system, let's break
 | <span className="timestamp">Given roles</span>  | Set the roles that are given when a form is approved/accepted (max. 5) | <span className="mention">@Staff Team</span> |
 | <span className="timestamp">Required roles</span>  | Set the required roles in order to use the form (max. 5) | <span className="mention">@Member</span> |
 | <span className="timestamp">Ping roles</span>  | Set the roles that are pinged when a form is submitted (max. 3) | <span className="mention">@Staff Team</span>, <span className="mention">@Management Team</span> |
+
+### Need Support?
+Contact us on our [forum page](https://forum.servermanagerbot.ml) for support on using forms!
