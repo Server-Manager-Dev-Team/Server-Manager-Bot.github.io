@@ -39,6 +39,13 @@ import DiscordComponent, { defaultOptions } from "../../src/components/DiscordCo
 | <span className="mention">/form &lt;name&gt;</span>  | Submit/complete a form       |   False        |
 | <span className="mention">/apply &lt;name&gt;</span>  | Submit/complete a form (alias for <span className="mention">/form</span>)     |   False        |
 
+<span className="box red no-background animation">
+<div className="title">
+<icon icon="fa-solid fa-hand"/> Warning
+</div>
+<p><a href="../premium">Non-premium</a> servers are <u>limited</u> to only <strong>5</strong> forms. <icon icon="fa-solid fa-wand-magic-sparkles" size="sm" style={{'color': '#d2af26'}}/> <a href="../premium">Upgrade to premium</a> for <strong>unlimited forms</strong> and other sweet perks for as low as <strong>$2/month</strong>!</p>
+</span>
+
 ## <icon icon="fa-solid fa-gear"/> Configurations {#configurations}
 There are many configurations and values to set in the forms system, let's break it down...
 
