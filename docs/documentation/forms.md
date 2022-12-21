@@ -66,8 +66,8 @@ Please only use the import/export form commands if you know what you're doing. I
 
 | Name | Description |
 | ----- | ----- |
-| <span className="mention">/forms import &lt;file&gt;</span> | Import a form from JSON, must follow [this](#formatting) format |
-| <span className="mention">/forms export &lt;form_name&gt;</span> | Exports a form into json, can be imported later |
+| <span className="mention">/forms import &lt;file&gt;</span> <span className="blurple-background">NEW</span> | Import a form from JSON, must follow [this](#formatting) format |
+| <span className="mention">/forms export &lt;form_name&gt;</span> <span className="blurple-background">NEW</span> | Exports a form into json, can be imported later |
 
 
 ### <icon icon="fa-solid fa-code"/> JSON Formatting {#formatting}
