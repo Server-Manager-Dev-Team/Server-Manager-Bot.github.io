@@ -58,6 +58,27 @@ There are many configurations and values to set in the forms system, let's break
 | <span className="timestamp">Denied message</span>  | Yup, you can also customize the denial message | Default: Your form in **Server Name** has been denied. | 
 
 ## <icon icon="fa-solid fa-file-import"/> Importing/exporting forms {#importing-exporting}
+You can export forms as **json** to use later or import to other servers to use! 
+
+<div className="box red no-background shadow">
+Please only use the import/export form commands if you know what you're doing. If you don't know what you're doing you could break forms that don't show up when you want to edit or use it. We won't provide support for json exports/imports.
+</div>
+
+| Name | Description |
+| ----- | ----- |
+| <span className="mention">/forms import &lt;file&gt;</span> | Import a form from JSON, must follow [this](#formatting) format |
+| <span className="mention">/forms export &lt;form_name&gt;</span> | Exports a form into json, can be imported later |
+
+
+### <icon icon="fa-solid fa-code"/> JSON Formatting {#formatting}
+Please use the following json template if you're creating a form from scracth with json
+
+```json
+{'name': 'Form name', 'description': 'Form description', 'questions': ['Question 1', 'Question 2', 'Question 3'], 'response_channel': VALID_CHANNEL_ID_INTEGER, 'settings': {'given_roles': [ROLES_IDS_IN_LIST], 'required_roles': [ROLE_IDS_IN_LIST], 'ping_roles': [ROLE_IDS_IN_LIST], 'accepted_message': 'Put as `None` for default', 'denied_message': 'Put as `None` for default'}}
+```
+
+- Upload JSON code as file
+- Put it as your <span className="timestamp">file</span> argument in <span className="mention">/forms import</span>
 
 
 ### Need Support?
