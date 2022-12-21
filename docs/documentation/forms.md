@@ -57,5 +57,8 @@ There are many configurations and values to set in the forms system, let's break
 | <span className="timestamp">Accepted message</span>  | Yes, you can customize the message that is used in the DM that's sent to a user when their form is accepted | Default: Your form in **Server Name** has been accepted! |
 | <span className="timestamp">Denied message</span>  | Yup, you can also customize the denial message | Default: Your form in **Server Name** has been denied. | 
 
+## <icon icon="fa-solid fa-file-import"/> Importing/exporting forms {#importing-exporting}
+
+
 ### Need Support?
 Contact us on our [forum page](https://forum.servermanagerbot.ml) for support on using forms!
