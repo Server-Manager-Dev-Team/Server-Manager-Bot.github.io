@@ -74,7 +74,7 @@ Please only use the import/export form commands if you know what you're doing. I
 Please use the following json template if you're creating a form from scracth with json
 
 ```json
-{'name': 'Form name', 'description': 'Form description', 'questions': ['Question 1', 'Question 2', 'Question 3'], 'response_channel': VALID_CHANNEL_ID_INTEGER, 'settings': {'given_roles': [ROLES_IDS_IN_LIST], 'required_roles': [ROLE_IDS_IN_LIST], 'ping_roles': [ROLE_IDS_IN_LIST], 'accepted_message': 'Put as `None` for default', 'denied_message': 'Put as `None` for default'}}
+{"name": 'Form name', "description": 'Form description', "questions": ['Question 1', 'Question 2', 'Question 3'], "response_channel": VALID_CHANNEL_ID_INTEGER, "settings": {"given_roles": [ROLES_IDS_IN_LIST], "required_roles": [ROLE_IDS_IN_LIST], "ping_roles": [ROLE_IDS_IN_LIST], "accepted_message": 'Put as `None` for default', "denied_message": 'Put as `None` for default'}}
 ```
 
 - Upload JSON code as file
