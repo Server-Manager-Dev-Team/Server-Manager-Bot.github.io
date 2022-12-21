@@ -74,12 +74,13 @@ Please only use the import/export form commands if you know what you're doing. I
 Please use the following json template if you're creating a form from scracth with json
 
 ```json
-{"name": 'Form name', "description": 'Form description', "questions": ['Question 1', 'Question 2', 'Question 3'], "response_channel": VALID_CHANNEL_ID_INTEGER, "settings": {"given_roles": [ROLES_IDS_IN_LIST], "required_roles": [ROLE_IDS_IN_LIST], "ping_roles": [ROLE_IDS_IN_LIST], "accepted_message": 'Put as `None` for default', "denied_message": 'Put as `None` for default'}}
+{"name": "Form name", "description": "Form description", "questions": ["Question 1", "Question 2", "Question 3"], "response_channel": VALID_CHANNEL_ID_INTEGER, "settings": {"given_roles": [ROLES_IDS_IN_LIST], "required_roles": [ROLE_IDS_IN_LIST], "ping_roles": [ROLE_IDS_IN_LIST], "accepted_message": "Put as `null` for default", "denied_message": "Put as `null` for default"}}
 ```
 
 - Upload JSON code as file
 - Put it as your <span className="timestamp">file</span> argument in <span className="mention">/forms import</span>
-
+- In JSON formatting, you need to use `null` instead of `None`
+- <icon icon="fa-solid fa-star" size="sm" style={{'color': '#d2af26'}}/> If you don't want anything for `given_roles`, `required_roles` or `ping_roles`, just set them as `null`
 
 ### Need Support?
 Contact us on our [forum page](https://forum.servermanagerbot.ml) for support on using forms!
