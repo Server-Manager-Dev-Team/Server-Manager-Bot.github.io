@@ -82,5 +82,8 @@ Please use the following json template if you're creating a form from scracth wi
 - In JSON formatting, you need to use `null` instead of `None`
 - <icon icon="fa-solid fa-star" size="sm" style={{'color': '#d2af26'}}/> If you don't want anything for <code>given_roles</code>, <code>required_roles</code> or <code>ping_roles</code>, just set them as <code>null</code>
 
+## <icon icon="fa-solid fa-folders"/> Form Templates {#templates}
+Coming soon.
+
 ### Need Support?
 Contact us on our [forum page](https://forum.servermanagerbot.ml) for support on using forms!
