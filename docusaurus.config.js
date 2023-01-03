@@ -10,7 +10,7 @@ const config = {
   title: "Server Manager",
   tagline:
     "Imagine a simple customizable multipurpose bot",
-  url: "https://servermanagerbot.ml",
+  url: "",
   baseUrl: "/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
