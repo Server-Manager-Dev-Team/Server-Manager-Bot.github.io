@@ -1,8 +1,4 @@
----
-title: Privacy Policy
-description: Privacy Policy
-sidebar_position: 5
----
+# Privacy Policy
 
 Server Manager Development Team built the Server Manager [Discord](https://discord.com) bot application as a **free** service. This SERVICE is provided by the Server Manager Development Team at no cost and is intended for use as is.
 
@@ -40,7 +36,3 @@ We may update our Privacy Policy from time to time. Thus, you are advised to rev
 ## Contact Us
 
 If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us in [our support server](https://servermanagerbot.ml/support).
-
-<div className="box red shadow no-background">
-  Please visit our <a href="/terms" className="discord-link">Terms of Service</a>.
-</div>
