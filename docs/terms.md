@@ -1,13 +1,4 @@
----
-title: Terms of Service
-description: Terms of Use for Server Manager (2022-present)
-sidebar_position: 4
----
-
-<div className="box red shadow no-background">
-By using our bot or any other of our services, you agree to these terms. If you do not agree to these terms, you don't have permission to use our bot. <strong>These terms can change at any time without notice</strong>.
-</div>
-
+# Terms of Service
 
 **1.** You may not use the bot in any circumstances of violating [Discord's Terms of Service](https://discord.com/terms) or [Discord's Community Guidelines](https://discord.com/guidelines).
 
@@ -34,7 +25,3 @@ By using our bot or any other of our services, you agree to these terms. If you 
 --- 
 
 ❓ **Have any questions? Join [our support server](https://servermanagerbot.ml/support)**.
-
-<div className="box red shadow no-background">
-  Please visit our <a href="/privacy" className="discord-link">Privacy Policy</a>.
-</div>
